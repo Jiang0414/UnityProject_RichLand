@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: RLC_sword_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 56fb7cc672786554f9cd8e761070f08b, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 4244e024cf5b727459fc766efcde6625, type: 2}
+  - {fileID: 2100000, guid: c231aa89aaa4b6c428a8a24aef556959, type: 2}
+  - {fileID: 2100000, guid: 2b9bc89e4d142bc45a9eaf6f1ab010e5, type: 2}
+  - {fileID: 2100000, guid: e62237bb685c46e48b4425120d13f322, type: 2}
+  - {fileID: 2100000, guid: b4e038db5b95dbc4b9995bb393e2f0da, type: 2}
+  - {fileID: 2100000, guid: 46b8116f2a023c94b8df53ce3560e3d2, type: 2}
+  - {fileID: 2100000, guid: 8a5627285a22e684daf1471d35e7acfe, type: 2}
+  - {fileID: 2100000, guid: d45be9c8c751ffe45af22b2d58ddd8e3, type: 2}
+  - {fileID: 2100000, guid: 506d1c1119c31de4a9885d24a3a677a1, type: 2}
+  - {fileID: 2100000, guid: 49d33150301f285458afb681d42f5c22, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: RLC_states_animation_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 0f3f2551e3fe4ff4abe52bf9ec89d252, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 43426801cb5aecf43b4549e9401baaf5, type: 2}
+  - {fileID: 2100000, guid: 4b225fe2ce7b36f4ba3076fe800ac07c, type: 2}
+  - {fileID: 2100000, guid: c8c1fbe7c97d6b246a5492c2aba402a6, type: 2}

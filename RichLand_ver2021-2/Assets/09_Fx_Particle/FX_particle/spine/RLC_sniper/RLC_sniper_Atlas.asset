@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: RLC_sniper_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: a932b1cf1cdf3154e8e75dd8b2ceecef, type: 3}
+  materials:
+  - {fileID: 2100000, guid: a6902dbd1da097f499ba8477e783c2b1, type: 2}
+  - {fileID: 2100000, guid: b1affa865d8b2df4ab437ff75b2e4fdd, type: 2}
+  - {fileID: 2100000, guid: 4c0cc070cc78262458b3cec13ea82ed7, type: 2}
+  - {fileID: 2100000, guid: d3cf41f8dd2168143847faa020369dd1, type: 2}
+  - {fileID: 2100000, guid: fedda63c7c0e38c4ea2b516233a9c63b, type: 2}
+  - {fileID: 2100000, guid: b3b49d722abf39441ab81afe09e6bfcb, type: 2}
+  - {fileID: 2100000, guid: 52bd0b8affb8c8e4494c9aa5d9856e4e, type: 2}
+  - {fileID: 2100000, guid: 12e72c9fc7d4274419a7b29a6285075c, type: 2}
+  - {fileID: 2100000, guid: dd6e84bc2f029db4f9d552039ed571e7, type: 2}
+  - {fileID: 2100000, guid: ae29c5fbe535d5148afc5d8cc3b80baf, type: 2}
+  - {fileID: 2100000, guid: d6c24d61de9105a46a3d0eba5c25da08, type: 2}
+  - {fileID: 2100000, guid: 82bdfeb33b32b2e47a88a95ad85b9fe5, type: 2}

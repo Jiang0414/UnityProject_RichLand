@@ -1,0 +1,514 @@
+
+RLC_singer.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Angry/Singer_Angry_0030
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0032
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0034
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0036
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0038
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0040
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_singer2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Angry/Singer_Angry_0042
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0044
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0046
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0048
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0050
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0052
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_singer3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Angry/Singer_Angry_0054
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0056
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Angry/Singer_Angry_0058
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0029
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0031
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0033
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_singer4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Happy/Singer_Happy_0035
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0037
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0039
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0041
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0043
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0045
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_singer5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Happy/Singer_Happy_0047
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0049
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0051
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0053
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0055
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0057
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_singer6.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Happy/Singer_Happy_0059
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0061
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0063
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Happy/Singer_Happy_0065
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0001
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0003
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_singer7.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Idle/Singer_Idle_0005
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0007
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0009
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0011
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0013
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0015
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_singer8.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Idle/Singer_Idle_0017
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0019
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0021
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0023
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0025
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0027
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_singer9.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Idle/Singer_Idle_0029
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0031
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0033
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0035
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0037
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0039
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_singer10.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Idle/Singer_Idle_0041
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0043
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0045
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0047
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0049
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0051
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_singer11.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+singer/Singer_Idle/Singer_Idle_0053
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0055
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0057
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+singer/Singer_Idle/Singer_Idle_0059
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1

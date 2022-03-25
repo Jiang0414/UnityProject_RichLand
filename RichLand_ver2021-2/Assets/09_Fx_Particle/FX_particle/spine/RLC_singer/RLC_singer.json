@@ -1,0 +1,179 @@
+{
+"skeleton": { "hash": "Ck1ByKrd/Cj56uXR+gzeTIiU+dE", "spine": "3.8.99" },
+"bones": [
+	{ "name": "RLC_singer" },
+	{ "name": "singer", "parent": "RLC_singer" }
+],
+"slots": [
+	{ "name": "Singer_sad_0030", "bone": "singer" },
+	{ "name": "Singer_Happy_0029", "bone": "singer" },
+	{ "name": "Singer_Idle_0001", "bone": "singer" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Singer_Happy_0029": {
+				"singer/Singer_Happy/Singer_Happy_0029": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0031": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0033": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0035": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0037": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0039": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0041": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0043": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0045": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0047": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0049": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0051": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0053": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0055": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0057": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0059": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0061": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0063": { "width": 960, "height": 540 },
+				"singer/Singer_Happy/Singer_Happy_0065": { "width": 960, "height": 540 }
+			},
+			"Singer_Idle_0001": {
+				"singer/Singer_Idle/Singer_Idle_0001": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0003": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0005": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0007": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0009": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0011": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0013": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0015": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0017": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0019": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0021": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0023": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0025": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0027": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0029": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0031": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0033": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0035": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0037": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0039": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0041": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0043": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0045": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0047": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0049": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0051": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0053": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0055": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0057": { "width": 960, "height": 540 },
+				"singer/Singer_Idle/Singer_Idle_0059": { "width": 960, "height": 540 }
+			},
+			"Singer_sad_0030": {
+				"singer/Singer_Angry/Singer_Angry_0030": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0032": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0034": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0036": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0038": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0040": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0042": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0044": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0046": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0048": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0050": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0052": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0054": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0056": { "width": 960, "height": 540 },
+				"singer/Singer_Angry/Singer_Angry_0058": { "width": 960, "height": 540 }
+			}
+		}
+	}
+],
+"animations": {
+	"singer_happy": {
+		"slots": {
+			"Singer_Happy_0029": {
+				"attachment": [
+					{ "name": "singer/Singer_Happy/Singer_Happy_0029" },
+					{ "time": 0.0667, "name": "singer/Singer_Happy/Singer_Happy_0031" },
+					{ "time": 0.1333, "name": "singer/Singer_Happy/Singer_Happy_0033" },
+					{ "time": 0.2, "name": "singer/Singer_Happy/Singer_Happy_0035" },
+					{ "time": 0.2667, "name": "singer/Singer_Happy/Singer_Happy_0037" },
+					{ "time": 0.3333, "name": "singer/Singer_Happy/Singer_Happy_0039" },
+					{ "time": 0.4, "name": "singer/Singer_Happy/Singer_Happy_0041" },
+					{ "time": 0.4667, "name": "singer/Singer_Happy/Singer_Happy_0043" },
+					{ "time": 0.5333, "name": "singer/Singer_Happy/Singer_Happy_0045" },
+					{ "time": 0.6, "name": "singer/Singer_Happy/Singer_Happy_0047" },
+					{ "time": 0.6667, "name": "singer/Singer_Happy/Singer_Happy_0049" },
+					{ "time": 0.7333, "name": "singer/Singer_Happy/Singer_Happy_0051" },
+					{ "time": 0.8, "name": "singer/Singer_Happy/Singer_Happy_0053" },
+					{ "time": 0.8667, "name": "singer/Singer_Happy/Singer_Happy_0055" },
+					{ "time": 0.9333, "name": "singer/Singer_Happy/Singer_Happy_0057" },
+					{ "time": 1, "name": "singer/Singer_Happy/Singer_Happy_0059" },
+					{ "time": 1.0667, "name": "singer/Singer_Happy/Singer_Happy_0061" },
+					{ "time": 1.1333, "name": "singer/Singer_Happy/Singer_Happy_0063" },
+					{ "time": 1.2, "name": "singer/Singer_Happy/Singer_Happy_0065" }
+				]
+			}
+		}
+	},
+	"singer_idle": {
+		"slots": {
+			"Singer_Idle_0001": {
+				"attachment": [
+					{ "name": "singer/Singer_Idle/Singer_Idle_0001" },
+					{ "time": 0.0667, "name": "singer/Singer_Idle/Singer_Idle_0003" },
+					{ "time": 0.1333, "name": "singer/Singer_Idle/Singer_Idle_0005" },
+					{ "time": 0.2, "name": "singer/Singer_Idle/Singer_Idle_0007" },
+					{ "time": 0.2667, "name": "singer/Singer_Idle/Singer_Idle_0009" },
+					{ "time": 0.3333, "name": "singer/Singer_Idle/Singer_Idle_0011" },
+					{ "time": 0.4, "name": "singer/Singer_Idle/Singer_Idle_0013" },
+					{ "time": 0.4667, "name": "singer/Singer_Idle/Singer_Idle_0015" },
+					{ "time": 0.5333, "name": "singer/Singer_Idle/Singer_Idle_0017" },
+					{ "time": 0.6, "name": "singer/Singer_Idle/Singer_Idle_0019" },
+					{ "time": 0.6667, "name": "singer/Singer_Idle/Singer_Idle_0021" },
+					{ "time": 0.7333, "name": "singer/Singer_Idle/Singer_Idle_0023" },
+					{ "time": 0.8, "name": "singer/Singer_Idle/Singer_Idle_0025" },
+					{ "time": 0.8667, "name": "singer/Singer_Idle/Singer_Idle_0027" },
+					{ "time": 0.9333, "name": "singer/Singer_Idle/Singer_Idle_0029" },
+					{ "time": 1, "name": "singer/Singer_Idle/Singer_Idle_0031" },
+					{ "time": 1.0667, "name": "singer/Singer_Idle/Singer_Idle_0033" },
+					{ "time": 1.1333, "name": "singer/Singer_Idle/Singer_Idle_0035" },
+					{ "time": 1.2, "name": "singer/Singer_Idle/Singer_Idle_0037" },
+					{ "time": 1.2667, "name": "singer/Singer_Idle/Singer_Idle_0039" },
+					{ "time": 1.3333, "name": "singer/Singer_Idle/Singer_Idle_0041" },
+					{ "time": 1.4, "name": "singer/Singer_Idle/Singer_Idle_0043" },
+					{ "time": 1.4667, "name": "singer/Singer_Idle/Singer_Idle_0045" },
+					{ "time": 1.5333, "name": "singer/Singer_Idle/Singer_Idle_0047" },
+					{ "time": 1.6, "name": "singer/Singer_Idle/Singer_Idle_0049" },
+					{ "time": 1.6667, "name": "singer/Singer_Idle/Singer_Idle_0051" },
+					{ "time": 1.7333, "name": "singer/Singer_Idle/Singer_Idle_0053" },
+					{ "time": 1.8, "name": "singer/Singer_Idle/Singer_Idle_0055" },
+					{ "time": 1.8667, "name": "singer/Singer_Idle/Singer_Idle_0057" },
+					{ "time": 1.9333, "name": "singer/Singer_Idle/Singer_Idle_0059" }
+				]
+			}
+		}
+	},
+	"singer_sad": {
+		"slots": {
+			"Singer_sad_0030": {
+				"attachment": [
+					{ "name": "singer/Singer_Angry/Singer_Angry_0030" },
+					{ "time": 0.0667, "name": "singer/Singer_Angry/Singer_Angry_0032" },
+					{ "time": 0.1333, "name": "singer/Singer_Angry/Singer_Angry_0034" },
+					{ "time": 0.2, "name": "singer/Singer_Angry/Singer_Angry_0036" },
+					{ "time": 0.2667, "name": "singer/Singer_Angry/Singer_Angry_0038" },
+					{ "time": 0.3333, "name": "singer/Singer_Angry/Singer_Angry_0040" },
+					{ "time": 0.4, "name": "singer/Singer_Angry/Singer_Angry_0042" },
+					{ "time": 0.4667, "name": "singer/Singer_Angry/Singer_Angry_0044" },
+					{ "time": 0.5333, "name": "singer/Singer_Angry/Singer_Angry_0046" },
+					{ "time": 0.6, "name": "singer/Singer_Angry/Singer_Angry_0048" },
+					{ "time": 0.6667, "name": "singer/Singer_Angry/Singer_Angry_0050" },
+					{ "time": 0.7333, "name": "singer/Singer_Angry/Singer_Angry_0052" },
+					{ "time": 0.8, "name": "singer/Singer_Angry/Singer_Angry_0054" },
+					{ "time": 0.8667, "name": "singer/Singer_Angry/Singer_Angry_0056" },
+					{ "time": 0.9333, "name": "singer/Singer_Angry/Singer_Angry_0058" }
+				]
+			}
+		}
+	}
+}
+}

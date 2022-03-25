@@ -1,0 +1,631 @@
+
+RLC_liones.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Happy/liones_Happy_0001
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0003
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0005
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0007
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0009
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0011
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Happy/liones_Happy_0013
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0015
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0017
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0019
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0021
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0023
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Happy/liones_Happy_0025
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0027
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0029
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0031
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0033
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Happy/liones_Happy_0035
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Happy/liones_Happy_0037
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0001
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0003
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0005
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0007
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0009
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Idle/liones_Idle_0011
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0013
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0015
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0017
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0019
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0021
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones6.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Idle/liones_Idle_0023
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0025
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0027
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0029
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0031
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0033
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones7.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Idle/liones_Idle_0035
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0037
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0039
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0041
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0043
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0045
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones8.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Idle/liones_Idle_0047
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0049
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0051
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0053
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0055
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0057
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones9.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Idle/liones_Idle_0059
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0061
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0063
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0065
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0067
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0069
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones10.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Idle/liones_Idle_0071
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0073
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0075
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0077
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Idle/liones_Idle_0079
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0001
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones11.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Sad/liones_Sad_0003
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0005
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0007
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0009
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0011
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0013
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones12.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Sad/liones_Sad_0015
+  rotate: false
+  xy: 1, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0017
+  rotate: false
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0019
+  rotate: false
+  xy: 962, 1083
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0021
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0023
+  rotate: false
+  xy: 962, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0025
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+RLC_liones13.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liones/liones_Sad/liones_Sad_0027
+  rotate: false
+  xy: 1, 1503
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0029
+  rotate: false
+  xy: 962, 1503
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0031
+  rotate: true
+  xy: 1, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0033
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0035
+  rotate: true
+  xy: 542, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0037
+  rotate: false
+  xy: 962, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+liones/liones_Sad/liones_Sad_0039
+  rotate: true
+  xy: 1083, 542
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1

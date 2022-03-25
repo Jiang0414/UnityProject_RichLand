@@ -1,0 +1,209 @@
+{
+"skeleton": { "hash": "/6JIHqxYNCqHg57/AZ0RICbNYLw", "spine": "3.8.99" },
+"bones": [
+	{ "name": "RLC_CEO" },
+	{ "name": "CEO", "parent": "RLC_CEO" }
+],
+"slots": [
+	{ "name": "Ceo_Happy_0001", "bone": "CEO" },
+	{ "name": "Ceo_Idle_0001", "bone": "CEO" },
+	{ "name": "Ceo_Sad_0001", "bone": "CEO" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Ceo_Happy_0001": {
+				"CEO/CEO_Happy/Ceo_Happy_0001": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0003": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0005": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0007": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0009": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0011": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0013": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0015": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0017": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0019": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0021": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0023": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0025": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0027": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0029": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0031": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0033": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0035": { "width": 960, "height": 540 },
+				"CEO/CEO_Happy/Ceo_Happy_0037": { "width": 960, "height": 540 }
+			},
+			"Ceo_Idle_0001": {
+				"CEO/CEO_idle/Ceo_Idle_0001": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0003": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0005": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0007": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0009": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0011": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0013": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0015": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0017": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0019": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0021": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0023": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0025": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0027": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0029": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0031": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0033": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0035": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0037": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0039": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0041": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0043": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0045": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0047": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0049": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0051": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0053": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0055": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0057": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0059": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0061": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0063": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0065": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0067": { "width": 960, "height": 540 },
+				"CEO/CEO_idle/Ceo_Idle_0069": { "width": 960, "height": 540 }
+			},
+			"Ceo_Sad_0001": {
+				"CEO/CEO_Sad/Ceo_Sad_0001": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0003": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0005": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0007": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0009": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0011": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0013": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0015": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0017": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0019": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0021": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0023": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0025": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0027": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0029": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0031": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0033": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0035": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0037": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0039": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0041": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0043": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0045": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0047": { "width": 960, "height": 540 },
+				"CEO/CEO_Sad/Ceo_Sad_0049": { "width": 960, "height": 540 }
+			}
+		}
+	}
+],
+"animations": {
+	"ceo_happy": {
+		"slots": {
+			"Ceo_Happy_0001": {
+				"attachment": [
+					{ "name": "CEO/CEO_Happy/Ceo_Happy_0001" },
+					{ "time": 0.0667, "name": "CEO/CEO_Happy/Ceo_Happy_0003" },
+					{ "time": 0.1333, "name": "CEO/CEO_Happy/Ceo_Happy_0005" },
+					{ "time": 0.2, "name": "CEO/CEO_Happy/Ceo_Happy_0007" },
+					{ "time": 0.2667, "name": "CEO/CEO_Happy/Ceo_Happy_0009" },
+					{ "time": 0.3333, "name": "CEO/CEO_Happy/Ceo_Happy_0011" },
+					{ "time": 0.4, "name": "CEO/CEO_Happy/Ceo_Happy_0013" },
+					{ "time": 0.4667, "name": "CEO/CEO_Happy/Ceo_Happy_0015" },
+					{ "time": 0.5333, "name": "CEO/CEO_Happy/Ceo_Happy_0017" },
+					{ "time": 0.6, "name": "CEO/CEO_Happy/Ceo_Happy_0019" },
+					{ "time": 0.6667, "name": "CEO/CEO_Happy/Ceo_Happy_0021" },
+					{ "time": 0.7333, "name": "CEO/CEO_Happy/Ceo_Happy_0023" },
+					{ "time": 0.8, "name": "CEO/CEO_Happy/Ceo_Happy_0025" },
+					{ "time": 0.8667, "name": "CEO/CEO_Happy/Ceo_Happy_0027" },
+					{ "time": 0.9333, "name": "CEO/CEO_Happy/Ceo_Happy_0029" },
+					{ "time": 1, "name": "CEO/CEO_Happy/Ceo_Happy_0031" },
+					{ "time": 1.0667, "name": "CEO/CEO_Happy/Ceo_Happy_0033" },
+					{ "time": 1.1333, "name": "CEO/CEO_Happy/Ceo_Happy_0035" },
+					{ "time": 1.2, "name": "CEO/CEO_Happy/Ceo_Happy_0037" }
+				]
+			}
+		}
+	},
+	"ceo_idle": {
+		"slots": {
+			"Ceo_Idle_0001": {
+				"attachment": [
+					{ "name": "CEO/CEO_idle/Ceo_Idle_0001" },
+					{ "time": 0.0667, "name": "CEO/CEO_idle/Ceo_Idle_0003" },
+					{ "time": 0.1333, "name": "CEO/CEO_idle/Ceo_Idle_0005" },
+					{ "time": 0.2, "name": "CEO/CEO_idle/Ceo_Idle_0007" },
+					{ "time": 0.2667, "name": "CEO/CEO_idle/Ceo_Idle_0009" },
+					{ "time": 0.3333, "name": "CEO/CEO_idle/Ceo_Idle_0011" },
+					{ "time": 0.4, "name": "CEO/CEO_idle/Ceo_Idle_0013" },
+					{ "time": 0.4667, "name": "CEO/CEO_idle/Ceo_Idle_0015" },
+					{ "time": 0.5333, "name": "CEO/CEO_idle/Ceo_Idle_0017" },
+					{ "time": 0.6, "name": "CEO/CEO_idle/Ceo_Idle_0019" },
+					{ "time": 0.6667, "name": "CEO/CEO_idle/Ceo_Idle_0021" },
+					{ "time": 0.7333, "name": "CEO/CEO_idle/Ceo_Idle_0023" },
+					{ "time": 0.8, "name": "CEO/CEO_idle/Ceo_Idle_0025" },
+					{ "time": 0.8667, "name": "CEO/CEO_idle/Ceo_Idle_0027" },
+					{ "time": 0.9333, "name": "CEO/CEO_idle/Ceo_Idle_0029" },
+					{ "time": 1, "name": "CEO/CEO_idle/Ceo_Idle_0031" },
+					{ "time": 1.0667, "name": "CEO/CEO_idle/Ceo_Idle_0033" },
+					{ "time": 1.1333, "name": "CEO/CEO_idle/Ceo_Idle_0035" },
+					{ "time": 1.2, "name": "CEO/CEO_idle/Ceo_Idle_0037" },
+					{ "time": 1.2667, "name": "CEO/CEO_idle/Ceo_Idle_0039" },
+					{ "time": 1.3333, "name": "CEO/CEO_idle/Ceo_Idle_0041" },
+					{ "time": 1.4, "name": "CEO/CEO_idle/Ceo_Idle_0043" },
+					{ "time": 1.4667, "name": "CEO/CEO_idle/Ceo_Idle_0045" },
+					{ "time": 1.5333, "name": "CEO/CEO_idle/Ceo_Idle_0047" },
+					{ "time": 1.6, "name": "CEO/CEO_idle/Ceo_Idle_0049" },
+					{ "time": 1.6667, "name": "CEO/CEO_idle/Ceo_Idle_0051" },
+					{ "time": 1.7333, "name": "CEO/CEO_idle/Ceo_Idle_0053" },
+					{ "time": 1.8, "name": "CEO/CEO_idle/Ceo_Idle_0055" },
+					{ "time": 1.8667, "name": "CEO/CEO_idle/Ceo_Idle_0057" },
+					{ "time": 1.9333, "name": "CEO/CEO_idle/Ceo_Idle_0059" },
+					{ "time": 2, "name": "CEO/CEO_idle/Ceo_Idle_0061" },
+					{ "time": 2.0667, "name": "CEO/CEO_idle/Ceo_Idle_0063" },
+					{ "time": 2.1333, "name": "CEO/CEO_idle/Ceo_Idle_0065" },
+					{ "time": 2.2, "name": "CEO/CEO_idle/Ceo_Idle_0067" },
+					{ "time": 2.2667, "name": "CEO/CEO_idle/Ceo_Idle_0069" }
+				]
+			}
+		}
+	},
+	"ceo_sad": {
+		"slots": {
+			"Ceo_Sad_0001": {
+				"attachment": [
+					{ "name": "CEO/CEO_Sad/Ceo_Sad_0001" },
+					{ "time": 0.0667, "name": "CEO/CEO_Sad/Ceo_Sad_0003" },
+					{ "time": 0.1333, "name": "CEO/CEO_Sad/Ceo_Sad_0005" },
+					{ "time": 0.2, "name": "CEO/CEO_Sad/Ceo_Sad_0007" },
+					{ "time": 0.2667, "name": "CEO/CEO_Sad/Ceo_Sad_0009" },
+					{ "time": 0.3333, "name": "CEO/CEO_Sad/Ceo_Sad_0011" },
+					{ "time": 0.4, "name": "CEO/CEO_Sad/Ceo_Sad_0013" },
+					{ "time": 0.4667, "name": "CEO/CEO_Sad/Ceo_Sad_0015" },
+					{ "time": 0.5333, "name": "CEO/CEO_Sad/Ceo_Sad_0017" },
+					{ "time": 0.6, "name": "CEO/CEO_Sad/Ceo_Sad_0019" },
+					{ "time": 0.6667, "name": "CEO/CEO_Sad/Ceo_Sad_0021" },
+					{ "time": 0.7333, "name": "CEO/CEO_Sad/Ceo_Sad_0023" },
+					{ "time": 0.8, "name": "CEO/CEO_Sad/Ceo_Sad_0025" },
+					{ "time": 0.8667, "name": "CEO/CEO_Sad/Ceo_Sad_0027" },
+					{ "time": 0.9333, "name": "CEO/CEO_Sad/Ceo_Sad_0029" },
+					{ "time": 1, "name": "CEO/CEO_Sad/Ceo_Sad_0031" },
+					{ "time": 1.0667, "name": "CEO/CEO_Sad/Ceo_Sad_0033" },
+					{ "time": 1.1333, "name": "CEO/CEO_Sad/Ceo_Sad_0035" },
+					{ "time": 1.2, "name": "CEO/CEO_Sad/Ceo_Sad_0037" },
+					{ "time": 1.2667, "name": "CEO/CEO_Sad/Ceo_Sad_0039" },
+					{ "time": 1.3333, "name": "CEO/CEO_Sad/Ceo_Sad_0041" },
+					{ "time": 1.4, "name": "CEO/CEO_Sad/Ceo_Sad_0043" },
+					{ "time": 1.4667, "name": "CEO/CEO_Sad/Ceo_Sad_0045" },
+					{ "time": 1.5333, "name": "CEO/CEO_Sad/Ceo_Sad_0047" },
+					{ "time": 1.6, "name": "CEO/CEO_Sad/Ceo_Sad_0049" }
+				]
+			}
+		}
+	}
+}
+}

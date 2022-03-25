@@ -1,0 +1,169 @@
+{
+"skeleton": { "hash": "/I9b+iar3WsRunXOVU/5NaUsLZY", "spine": "3.8.99" },
+"bones": [
+	{ "name": "RLC_sword" },
+	{ "name": "sword", "parent": "RLC_sword" }
+],
+"slots": [
+	{ "name": "Sword_Happy_0001", "bone": "sword" },
+	{ "name": "Sword_Idle_0001", "bone": "sword" },
+	{ "name": "Sword_Sad_0001", "bone": "sword" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Sword_Happy_0001": {
+				"sword/Sword_Happy/Sword_Happy_0001": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0003": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0005": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0007": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0009": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0011": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0013": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0015": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0017": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0019": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0021": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0023": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0025": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0027": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0029": { "width": 960, "height": 540 },
+				"sword/Sword_Happy/Sword_Happy_0031": { "width": 960, "height": 540 }
+			},
+			"Sword_Idle_0001": {
+				"sword/Sword_Idle/Sword_Idle_0001": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0003": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0005": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0007": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0009": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0011": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0013": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0015": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0017": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0019": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0021": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0023": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0025": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0027": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0029": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0031": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0033": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0035": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0037": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0039": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0041": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0043": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0045": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0047": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0049": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0051": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0053": { "width": 960, "height": 540 },
+				"sword/Sword_Idle/Sword_Idle_0055": { "width": 960, "height": 540 }
+			},
+			"Sword_Sad_0001": {
+				"sword/Sword_Sad/Sword_Sad_0001": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0003": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0005": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0007": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0009": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0011": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0013": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0015": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0017": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0019": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0021": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0023": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0025": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0027": { "width": 960, "height": 540 },
+				"sword/Sword_Sad/Sword_Sad_0029": { "width": 960, "height": 540 }
+			}
+		}
+	}
+],
+"animations": {
+	"sword_happy": {
+		"slots": {
+			"Sword_Happy_0001": {
+				"attachment": [
+					{ "name": "sword/Sword_Happy/Sword_Happy_0001" },
+					{ "time": 0.0667, "name": "sword/Sword_Happy/Sword_Happy_0003" },
+					{ "time": 0.1333, "name": "sword/Sword_Happy/Sword_Happy_0005" },
+					{ "time": 0.2, "name": "sword/Sword_Happy/Sword_Happy_0007" },
+					{ "time": 0.2667, "name": "sword/Sword_Happy/Sword_Happy_0009" },
+					{ "time": 0.3333, "name": "sword/Sword_Happy/Sword_Happy_0011" },
+					{ "time": 0.4, "name": "sword/Sword_Happy/Sword_Happy_0013" },
+					{ "time": 0.4667, "name": "sword/Sword_Happy/Sword_Happy_0015" },
+					{ "time": 0.5333, "name": "sword/Sword_Happy/Sword_Happy_0017" },
+					{ "time": 0.6, "name": "sword/Sword_Happy/Sword_Happy_0019" },
+					{ "time": 0.6667, "name": "sword/Sword_Happy/Sword_Happy_0021" },
+					{ "time": 0.7333, "name": "sword/Sword_Happy/Sword_Happy_0023" },
+					{ "time": 0.8, "name": "sword/Sword_Happy/Sword_Happy_0025" },
+					{ "time": 0.8667, "name": "sword/Sword_Happy/Sword_Happy_0027" },
+					{ "time": 0.9333, "name": "sword/Sword_Happy/Sword_Happy_0029" },
+					{ "time": 1, "name": "sword/Sword_Happy/Sword_Happy_0031" }
+				]
+			}
+		}
+	},
+	"sword_idle": {
+		"slots": {
+			"Sword_Idle_0001": {
+				"attachment": [
+					{ "name": "sword/Sword_Idle/Sword_Idle_0001" },
+					{ "time": 0.0667, "name": "sword/Sword_Idle/Sword_Idle_0003" },
+					{ "time": 0.1333, "name": "sword/Sword_Idle/Sword_Idle_0005" },
+					{ "time": 0.2, "name": "sword/Sword_Idle/Sword_Idle_0007" },
+					{ "time": 0.2667, "name": "sword/Sword_Idle/Sword_Idle_0009" },
+					{ "time": 0.3333, "name": "sword/Sword_Idle/Sword_Idle_0011" },
+					{ "time": 0.4, "name": "sword/Sword_Idle/Sword_Idle_0013" },
+					{ "time": 0.4667, "name": "sword/Sword_Idle/Sword_Idle_0015" },
+					{ "time": 0.5333, "name": "sword/Sword_Idle/Sword_Idle_0017" },
+					{ "time": 0.6, "name": "sword/Sword_Idle/Sword_Idle_0019" },
+					{ "time": 0.6667, "name": "sword/Sword_Idle/Sword_Idle_0021" },
+					{ "time": 0.7333, "name": "sword/Sword_Idle/Sword_Idle_0023" },
+					{ "time": 0.8, "name": "sword/Sword_Idle/Sword_Idle_0025" },
+					{ "time": 0.8667, "name": "sword/Sword_Idle/Sword_Idle_0027" },
+					{ "time": 0.9333, "name": "sword/Sword_Idle/Sword_Idle_0029" },
+					{ "time": 1, "name": "sword/Sword_Idle/Sword_Idle_0031" },
+					{ "time": 1.0667, "name": "sword/Sword_Idle/Sword_Idle_0033" },
+					{ "time": 1.1333, "name": "sword/Sword_Idle/Sword_Idle_0035" },
+					{ "time": 1.2, "name": "sword/Sword_Idle/Sword_Idle_0037" },
+					{ "time": 1.2667, "name": "sword/Sword_Idle/Sword_Idle_0039" },
+					{ "time": 1.3333, "name": "sword/Sword_Idle/Sword_Idle_0041" },
+					{ "time": 1.4, "name": "sword/Sword_Idle/Sword_Idle_0043" },
+					{ "time": 1.4667, "name": "sword/Sword_Idle/Sword_Idle_0045" },
+					{ "time": 1.5333, "name": "sword/Sword_Idle/Sword_Idle_0047" },
+					{ "time": 1.6, "name": "sword/Sword_Idle/Sword_Idle_0049" },
+					{ "time": 1.6667, "name": "sword/Sword_Idle/Sword_Idle_0051" },
+					{ "time": 1.7333, "name": "sword/Sword_Idle/Sword_Idle_0053" },
+					{ "time": 1.8, "name": "sword/Sword_Idle/Sword_Idle_0055" }
+				]
+			}
+		}
+	},
+	"sword_sad": {
+		"slots": {
+			"Sword_Sad_0001": {
+				"attachment": [
+					{ "name": "sword/Sword_Sad/Sword_Sad_0001" },
+					{ "time": 0.0667, "name": "sword/Sword_Sad/Sword_Sad_0003" },
+					{ "time": 0.1333, "name": "sword/Sword_Sad/Sword_Sad_0005" },
+					{ "time": 0.2, "name": "sword/Sword_Sad/Sword_Sad_0007" },
+					{ "time": 0.2667, "name": "sword/Sword_Sad/Sword_Sad_0009" },
+					{ "time": 0.3333, "name": "sword/Sword_Sad/Sword_Sad_0011" },
+					{ "time": 0.4, "name": "sword/Sword_Sad/Sword_Sad_0013" },
+					{ "time": 0.4667, "name": "sword/Sword_Sad/Sword_Sad_0015" },
+					{ "time": 0.5333, "name": "sword/Sword_Sad/Sword_Sad_0017" },
+					{ "time": 0.6, "name": "sword/Sword_Sad/Sword_Sad_0019" },
+					{ "time": 0.6667, "name": "sword/Sword_Sad/Sword_Sad_0021" },
+					{ "time": 0.7333, "name": "sword/Sword_Sad/Sword_Sad_0023" },
+					{ "time": 0.8, "name": "sword/Sword_Sad/Sword_Sad_0025" },
+					{ "time": 0.8667, "name": "sword/Sword_Sad/Sword_Sad_0027" },
+					{ "time": 0.9333, "name": "sword/Sword_Sad/Sword_Sad_0029" }
+				]
+			}
+		}
+	}
+}
+}

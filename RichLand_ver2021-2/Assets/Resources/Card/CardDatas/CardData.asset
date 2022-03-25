@@ -1,0 +1,378 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18fecfa2051ad1140859c88875775f6b, type: 3}
+  m_Name: CardData
+  m_EditorClassIdentifier: 
+  SheetName: Assets/13_Excel/Card/DestinyCard.xlsx
+  WorksheetName: CardData
+  dataArray:
+  - id: 1
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u9AD8 \u9435 \u7968"
+    content: "\u7ACB\u523B\u79FB\u52D5\u5230\u9AD8\u901F\u9435\u8DEF\uFF0C\n\u4E0B\u56DE\u5408\u57F7\u884C\u5176\u6548\u679C"
+  - id: 2
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u767C \u8D77 \u90FD \u5E02 \u66F4 \u65B0"
+    content: "\u7ACB\u523B\u79FB\u52D5\u5230\u90FD\u5E02\u66F4\u65B0\uFF0C\n\u4E0B\u56DE\u5408\u57F7\u884C\u5176\u6548\u679C"
+  - id: 3
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u50B3 \u9001 \u5361"
+    content: "\u9078\u64C7\u96D9\u65B9\u4E00\u4EBA\u50B3\u9001\u5230\u6A5F\u6703\u547D\u904B\u5361\u4E4B\u5916\u7684\n\u4EFB\u610F\u5340\u57DF\uFF0C\u4E26\u7ACB\u5373\u57F7\u884C\u8A72\u5340\u6548\u679C"
+  - id: 4
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u5EA6 \u5047 \u5361"
+    content: "\u9078\u64C7\u96D9\u65B9\u4E00\u4EBA\u50B3\u9001\u5230\u5EA6\u5047\u4E2D\u5FC3\uFF0C\n\u4E0B\u56DE\u5408\u57F7\u884C\u5176\u6548\u679C"
+  - id: 5
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u571F \u5730 \u8CFC \u8CB7 \u5361"
+    content: "\u8CFC\u8CB7\u5834\u5730\u4E2D\u4EFB\u4E00\u584A\u7121\u4E3B\u5730"
+  - id: 6
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 1
+    probability: 535
+    name: "\u5F37 \u5236 \u6536 \u8CFC \u5361"
+    content: "\u539F\u50F9\u6536\u8CFC\u5C0D\u624B\u7684\u4EFB\u4E00\u584A\u571F\u5730\uFF0C\n\u5305\u542B\u5730\u4E0A\u5EFA\u7269"
+  - id: 7
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u5730 \u9707"
+    content: "\u6307\u5B9A\u5C0D\u624B\u4E00\u584A\u571F\u5730\uFF0C\n\u5730\u4E0A\u5EFA\u7269\u4E0B\u964D1\u968E"
+  - id: 8
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 301
+    name: "\u5927 \u5730 \u9707"
+    content: "\u6307\u5B9A\u5C0D\u624B\u4E00\u584A\u571F\u5730\uFF0C\n\u5730\u4E0A\u5EFA\u7269\u5168\u90E8\u6467\u6BC0"
+  - id: 9
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 2
+    effectvalue: 0.5
+    probability: 535
+    name: "\u9F8D \u6372 \u98A8"
+    content: "\u6307\u5B9A\u4E00\u584A\u5340\u57DF\u7684\u904E\u8DEF\u8CBB\u534A\u50F9\n<\u6301\u7E8C2\u56DE\u5408>"
+  - id: 10
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 2
+    effectvalue: 1.5
+    probability: 535
+    name: "\u60E1 \u9B54 \u5361"
+    content: "\u4F7F\u5C0D\u624B\u4ED8\u51FA\u7684\u904E\u8DEF\u8CBB\u589E\u52A050%\n<\u6301\u7E8C2\u56DE\u5408>"
+  - id: 11
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0.15
+    probability: 535
+    name: "\u5F37 \u5236 \u5FB5 \u7A05"
+    content: "\u4F7F\u5C0D\u624B\u88AB\u67E5\u7A05\uFF0C\u76EE\u524D\u8CA1\u7522\u6E1B\u5C1115%"
+  - id: 12
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0.1
+    probability: 535
+    name: "\u5C0F \u5077 \u5361"
+    content: "\u7ACB\u523B\u5077\u53D6\u5C0D\u65B910%\u7684\u8CA1\u7522"
+  - id: 13
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 3
+    effectvalue: 0
+    probability: 535
+    name: "\u571F \u5730 \u505C \u96FB"
+    content: "\u6307\u5B9A\u5C0D\u624B\u4E00\u584A\u571F\u5730\u904E\u8DEF\u8CBB\u70BA0\n<\u6301\u7E8C3\u56DE\u5408>"
+  - id: 14
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 301
+    name: "\u6436 \u596A \u9632 \u79A6 \u5361"
+    content: "\u6436\u596A\u5C0D\u624B\u7684\u4E00\u5F35\u9632\u79A6\u5361"
+  - id: 15
+    isanit: 0
+    isdirect: 0
+    canrobbery: 1
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u76FE \u724C"
+    content: "\u4E0B\u56DE\u5408\u5C0D\u624B\u767C\u52D5\u7684\u653B\u64CA\u5361\u81EA\u52D5\u7121\u6548"
+  - id: 16
+    isanit: 0
+    isdirect: 0
+    canrobbery: 1
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u5929 \u4F7F \u5361"
+    content: "\u514D\u9664\u4E0B\u6B21\u652F\u4ED8\u7684\u904E\u8DEF\u8CBB"
+  - id: 17
+    isanit: 1
+    isdirect: 0
+    canrobbery: 1
+    continued: 0
+    effectvalue: 0
+    probability: 301
+    name: "\u53CD \u5F48 \u5361"
+    content: "\u81EA\u52D5\u53CD\u5F48\u4E0B\u6B21\u7684\u653B\u64CA\u5361\u7247\u6548\u679C"
+  - id: 18
+    isanit: 0
+    isdirect: 0
+    canrobbery: 0
+    continued: 0
+    effectvalue: 1
+    probability: 535
+    name: "\u5EFA \u7BC9 \u5347 \u7D1A \u5361"
+    content: "\u4E0B\u6B21\u79FB\u52D5\u5230\u81EA\u5BB6\u571F\u5730\u6642\n<\u81EA\u52D5\u5347\u7D1A1\u968E>"
+  - id: 19
+    isanit: 0
+    isdirect: 0
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0.5
+    probability: 535
+    name: "\u8A0E \u50F9 \u9084 \u50F9 \u5361"
+    content: "\u4E0B\u6B21\u6536\u8CFC\u5C0D\u624B\u571F\u5730\u6642\uFF0C\u8CBB\u7528\u6E1B\u534A\u3002\n<\u8A72\u6548\u679C\u4E0D\u53EF\u88AB\u53CD\u5F48>"
+  - id: 20
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 2
+    effectvalue: 0
+    probability: 535
+    name: "\u548C \u5E73 \u5361"
+    content: "\u96D9\u65B9\u90FD\u4E0D\u7528\u652F\u4ED8\u904E\u8DEF\u8CBB\n<\u6301\u7E8C2\u56DE\u5408>"
+  dataList:
+  - id: 1
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u9AD8 \u9435 \u7968"
+    content: "\u7ACB\u523B\u79FB\u52D5\u5230\u9AD8\u901F\u9435\u8DEF\uFF0C\n\u4E0B\u56DE\u5408\u57F7\u884C\u5176\u6548\u679C"
+  - id: 2
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u767C \u8D77 \u90FD \u5E02 \u66F4 \u65B0"
+    content: "\u7ACB\u523B\u79FB\u52D5\u5230\u90FD\u5E02\u66F4\u65B0\uFF0C\n\u4E0B\u56DE\u5408\u57F7\u884C\u5176\u6548\u679C"
+  - id: 3
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u50B3 \u9001 \u5361"
+    content: "\u9078\u64C7\u96D9\u65B9\u4E00\u4EBA\u50B3\u9001\u5230\u6A5F\u6703\u547D\u904B\u5361\u4E4B\u5916\u7684\n\u4EFB\u610F\u5340\u57DF\uFF0C\u4E26\u7ACB\u5373\u57F7\u884C\u8A72\u5340\u6548\u679C"
+  - id: 4
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u5EA6 \u5047 \u5361"
+    content: "\u9078\u64C7\u96D9\u65B9\u4E00\u4EBA\u50B3\u9001\u5230\u5EA6\u5047\u4E2D\u5FC3\uFF0C\n\u4E0B\u56DE\u5408\u57F7\u884C\u5176\u6548\u679C"
+  - id: 5
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u571F \u5730 \u8CFC \u8CB7 \u5361"
+    content: "\u8CFC\u8CB7\u5834\u5730\u4E2D\u4EFB\u4E00\u584A\u7121\u4E3B\u5730"
+  - id: 6
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 1
+    probability: 535
+    name: "\u5F37 \u5236 \u6536 \u8CFC \u5361"
+    content: "\u539F\u50F9\u6536\u8CFC\u5C0D\u624B\u7684\u4EFB\u4E00\u584A\u571F\u5730\uFF0C\n\u5305\u542B\u5730\u4E0A\u5EFA\u7269"
+  - id: 7
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u5730 \u9707"
+    content: "\u6307\u5B9A\u5C0D\u624B\u4E00\u584A\u571F\u5730\uFF0C\n\u5730\u4E0A\u5EFA\u7269\u4E0B\u964D1\u968E"
+  - id: 8
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 301
+    name: "\u5927 \u5730 \u9707"
+    content: "\u6307\u5B9A\u5C0D\u624B\u4E00\u584A\u571F\u5730\uFF0C\n\u5730\u4E0A\u5EFA\u7269\u5168\u90E8\u6467\u6BC0"
+  - id: 9
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 2
+    effectvalue: 0.5
+    probability: 535
+    name: "\u9F8D \u6372 \u98A8"
+    content: "\u6307\u5B9A\u4E00\u584A\u5340\u57DF\u7684\u904E\u8DEF\u8CBB\u534A\u50F9\n<\u6301\u7E8C2\u56DE\u5408>"
+  - id: 10
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 2
+    effectvalue: 1.5
+    probability: 535
+    name: "\u60E1 \u9B54 \u5361"
+    content: "\u4F7F\u5C0D\u624B\u4ED8\u51FA\u7684\u904E\u8DEF\u8CBB\u589E\u52A050%\n<\u6301\u7E8C2\u56DE\u5408>"
+  - id: 11
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0.15
+    probability: 535
+    name: "\u5F37 \u5236 \u5FB5 \u7A05"
+    content: "\u4F7F\u5C0D\u624B\u88AB\u67E5\u7A05\uFF0C\u76EE\u524D\u8CA1\u7522\u6E1B\u5C1115%"
+  - id: 12
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0.1
+    probability: 535
+    name: "\u5C0F \u5077 \u5361"
+    content: "\u7ACB\u523B\u5077\u53D6\u5C0D\u65B910%\u7684\u8CA1\u7522"
+  - id: 13
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 3
+    effectvalue: 0
+    probability: 535
+    name: "\u571F \u5730 \u505C \u96FB"
+    content: "\u6307\u5B9A\u5C0D\u624B\u4E00\u584A\u571F\u5730\u904E\u8DEF\u8CBB\u70BA0\n<\u6301\u7E8C3\u56DE\u5408>"
+  - id: 14
+    isanit: 1
+    isdirect: 1
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0
+    probability: 301
+    name: "\u6436 \u596A \u9632 \u79A6 \u5361"
+    content: "\u6436\u596A\u5C0D\u624B\u7684\u4E00\u5F35\u9632\u79A6\u5361"
+  - id: 15
+    isanit: 0
+    isdirect: 0
+    canrobbery: 1
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u76FE \u724C"
+    content: "\u4E0B\u56DE\u5408\u5C0D\u624B\u767C\u52D5\u7684\u653B\u64CA\u5361\u81EA\u52D5\u7121\u6548"
+  - id: 16
+    isanit: 0
+    isdirect: 0
+    canrobbery: 1
+    continued: 0
+    effectvalue: 0
+    probability: 535
+    name: "\u5929 \u4F7F \u5361"
+    content: "\u514D\u9664\u4E0B\u6B21\u652F\u4ED8\u7684\u904E\u8DEF\u8CBB"
+  - id: 17
+    isanit: 1
+    isdirect: 0
+    canrobbery: 1
+    continued: 0
+    effectvalue: 0
+    probability: 301
+    name: "\u53CD \u5F48 \u5361"
+    content: "\u81EA\u52D5\u53CD\u5F48\u4E0B\u6B21\u7684\u653B\u64CA\u5361\u7247\u6548\u679C"
+  - id: 18
+    isanit: 0
+    isdirect: 0
+    canrobbery: 0
+    continued: 0
+    effectvalue: 1
+    probability: 535
+    name: "\u5EFA \u7BC9 \u5347 \u7D1A \u5361"
+    content: "\u4E0B\u6B21\u79FB\u52D5\u5230\u81EA\u5BB6\u571F\u5730\u6642\n<\u81EA\u52D5\u5347\u7D1A1\u968E>"
+  - id: 19
+    isanit: 0
+    isdirect: 0
+    canrobbery: 0
+    continued: 0
+    effectvalue: 0.5
+    probability: 535
+    name: "\u8A0E \u50F9 \u9084 \u50F9 \u5361"
+    content: "\u4E0B\u6B21\u6536\u8CFC\u5C0D\u624B\u571F\u5730\u6642\uFF0C\u8CBB\u7528\u6E1B\u534A\u3002\n<\u8A72\u6548\u679C\u4E0D\u53EF\u88AB\u53CD\u5F48>"
+  - id: 20
+    isanit: 0
+    isdirect: 1
+    canrobbery: 0
+    continued: 2
+    effectvalue: 0
+    probability: 535
+    name: "\u548C \u5E73 \u5361"
+    content: "\u96D9\u65B9\u90FD\u4E0D\u7528\u652F\u4ED8\u904E\u8DEF\u8CBB\n<\u6301\u7E8C2\u56DE\u5408>"

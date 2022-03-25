@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: RLC_liones_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: e62764531f5f7604cafda7b5ee781627, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 549295d665e764443a18695dd433e2f5, type: 2}
+  - {fileID: 2100000, guid: fe29359f25daf3e4b8f4dbce106defd7, type: 2}
+  - {fileID: 2100000, guid: 52e6135547e08784380dec3a2ad9f80d, type: 2}
+  - {fileID: 2100000, guid: 0e6ab827c1bedd04c94dfddbc91d1b5f, type: 2}
+  - {fileID: 2100000, guid: 42a59c14d99ecd245b9c8be994ee88e5, type: 2}
+  - {fileID: 2100000, guid: cb45de76779acd044b374b044cd99582, type: 2}
+  - {fileID: 2100000, guid: 57927387c694d8e4293c29ad6cb1a18c, type: 2}
+  - {fileID: 2100000, guid: 9330a85116288044b83e1e383b39c9ad, type: 2}
+  - {fileID: 2100000, guid: 3ede486a7dd73bf409b03573afc7c512, type: 2}
+  - {fileID: 2100000, guid: a459a21174002624a88a19b37abc23c1, type: 2}
+  - {fileID: 2100000, guid: 9aaedf97dd013af44ba49b08db88b205, type: 2}
+  - {fileID: 2100000, guid: 0340fde73f131ca4d9e0707569624193, type: 2}
+  - {fileID: 2100000, guid: 057903444d67cc9468cdfb5c95d4b558, type: 2}

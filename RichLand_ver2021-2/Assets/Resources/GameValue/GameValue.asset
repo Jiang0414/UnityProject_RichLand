@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6174081a2d78e6b469b6965b2dbbec2a, type: 3}
+  m_Name: GameValue
+  m_EditorClassIdentifier: 
+  SheetName: Assets/13_Excel/Card/DestinyCard.xlsx
+  WorksheetName: GameValue
+  dataArray:
+  - id: 1
+    content: "\u73A9\u5BB6\u8D77\u59CB\u91D1\u984D"
+    contentvalue: 1200000
+  - id: 2
+    content: "\u904E\u8DEF\u8CBB\u500D\u7387"
+    contentvalue: 1
+  - id: 3
+    content: "\u6536\u8CFC\u500D\u7387"
+    contentvalue: 1.5
+  - id: 4
+    content: "\u904E\u8DEF\u8CBB\u5340\u57DF\u500D\u7387"
+    contentvalue: 1.5
+  - id: 5
+    content: "\u904E\u8DEF\u8CBB\u8857\u5340\u500D\u7387"
+    contentvalue: 2
+  - id: 6
+    content: "\u571F\u5730\u904E\u8DEF\u8CBB\u52A0\u4E58"
+    contentvalue: 1.2
+  - id: 7
+    content: "\u62CB\u552E\u6298\u50F9"
+    contentvalue: 0.5
+  - id: 17
+    content: "\u7DF4\u7FD2\u6A21\u5F0F\u6536\u8CFC\u571F\u5730\u8CBB\u7528"
+    contentvalue: 10000
+  - id: 51
+    content: "\u8209\u8FA6\u6176\u5178\u82B1\u8CBB"
+    contentvalue: 20000
+  - id: 52
+    content: "\u8D77\u59CB\u7D66\u9322"
+    contentvalue: 30000
+  - id: 53
+    content: "\u65C5\u904A\u82B1\u9322"
+    contentvalue: 6000
+  dataList:
+  - id: 1
+    content: "\u73A9\u5BB6\u8D77\u59CB\u91D1\u984D"
+    contentvalue: 1200000
+  - id: 2
+    content: "\u904E\u8DEF\u8CBB\u500D\u7387"
+    contentvalue: 1
+  - id: 3
+    content: "\u6536\u8CFC\u500D\u7387"
+    contentvalue: 1.5
+  - id: 4
+    content: "\u904E\u8DEF\u8CBB\u5340\u57DF\u500D\u7387"
+    contentvalue: 1.5
+  - id: 5
+    content: "\u904E\u8DEF\u8CBB\u8857\u5340\u500D\u7387"
+    contentvalue: 2
+  - id: 6
+    content: "\u571F\u5730\u904E\u8DEF\u8CBB\u52A0\u4E58"
+    contentvalue: 1.2
+  - id: 7
+    content: "\u62CB\u552E\u6298\u50F9"
+    contentvalue: 0.5
+  - id: 17
+    content: "\u7DF4\u7FD2\u6A21\u5F0F\u6536\u8CFC\u571F\u5730\u8CBB\u7528"
+    contentvalue: 10000
+  - id: 51
+    content: "\u8209\u8FA6\u6176\u5178\u82B1\u8CBB"
+    contentvalue: 20000
+  - id: 52
+    content: "\u8D77\u59CB\u7D66\u9322"
+    contentvalue: 30000
+  - id: 53
+    content: "\u65C5\u904A\u82B1\u9322"
+    contentvalue: 6000

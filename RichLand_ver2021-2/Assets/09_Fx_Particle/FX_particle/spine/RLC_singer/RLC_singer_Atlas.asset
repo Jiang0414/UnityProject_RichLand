@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: RLC_singer_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 512160b0863c62444b46a5e0ad4fdf3f, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 9c295d9f4c5a9e44696d11669dd2e3fc, type: 2}
+  - {fileID: 2100000, guid: 4e7aa0089fecc6d44922a93b42d02754, type: 2}
+  - {fileID: 2100000, guid: 7692d11ac516e724a8a64cd1bfd33606, type: 2}
+  - {fileID: 2100000, guid: 508799512063223439057731c47d4f6c, type: 2}
+  - {fileID: 2100000, guid: 1c81341fda3ac854c996d29e02726644, type: 2}
+  - {fileID: 2100000, guid: cfdf672197f45ba44b66d9e9bff8d318, type: 2}
+  - {fileID: 2100000, guid: 84c51847c779bdd45b3aea1da452606c, type: 2}
+  - {fileID: 2100000, guid: 614053e00dccee949859adc1430a15be, type: 2}
+  - {fileID: 2100000, guid: f4c020f4d5cbeeb4093959738d9c9b1b, type: 2}
+  - {fileID: 2100000, guid: 5f3bf16ddb28a0d4ebf9672bbcf5b8c6, type: 2}
+  - {fileID: 2100000, guid: d06c5b52142d3d841877e295d8eb312c, type: 2}
