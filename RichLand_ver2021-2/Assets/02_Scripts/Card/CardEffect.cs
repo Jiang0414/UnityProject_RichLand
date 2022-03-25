@@ -862,7 +862,7 @@ public class CardEffect : MonoBehaviour
     private void Card_Angel() //16
     {
         if (roundManager.now_Player != owner) return;
-        if (owner.groundInfo.owner != owner.playerID && owner.playerState == PlayerCtrl.PlayerState.RoadAction)
+        if (owner.groundInfo.owner != owner.playerID && owner.playerState == PlayerCtrl.PlayerState.RoadAction && !owner.groundInfo.isNotRoad)
         {
             owner.isPeace = true;
             OpenCard();

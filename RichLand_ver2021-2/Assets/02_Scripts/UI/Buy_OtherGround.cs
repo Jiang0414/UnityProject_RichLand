@@ -90,7 +90,7 @@ public class Buy_OtherGround : MonoBehaviour
             groundValue = ground_Info.buildPrice;
         }
         discount = (int)(groundValue * player.discount);
-        txt_Name.text = "是否收購" + ground_Info.Info.Name + "?";
+        txt_Name.text = "是否收購土地" + ground_Info.Info.ID + "?";
         txt_TotalPrice.text = TextThousand.Instance.SetText(groundValue);
         txt_Discount.text = TextThousand.Instance.SetText(discount);
         finalPrice = groundValue - discount;

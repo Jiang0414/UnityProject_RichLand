@@ -62,7 +62,6 @@ public class Corner : MonoBehaviour
     #region 起始點功能
     public void Corner_Start(PlayerCtrl player)
     {
-        Debug.Log("發錢");
         player.SetHappy();
         player.PlayerInfo.Assets += startMoney;
         player.uiManager.isActDone = true;
