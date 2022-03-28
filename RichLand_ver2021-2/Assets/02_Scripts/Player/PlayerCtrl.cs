@@ -52,6 +52,10 @@ public class PlayerCtrl : MonoBehaviour
 
     #endregion
     public GameObject fx_PayCoin, fx_PayCoin2, fx_Devil, fx_Peace;
+    [HideInInspector]
+    public GameObject canvas_PlayerLabel;
+    [HideInInspector]
+    public float playerLabel_OldPos;
 
     #region 玩家資訊
     public int diceNumber;
@@ -102,11 +106,12 @@ public class PlayerCtrl : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         showNumber = GetComponent<UI_ShowNumber>();
         dice1 = GameObject.FindGameObjectWithTag("dice" + playerID.ToString() + "_1").GetComponent<RandomDice>();
-        dice2 = GameObject.FindGameObjectWithTag("dice" + playerID.ToString() + "_2").GetComponent<RandomDice>();
+        dice2 = GameObject.FindGameObjectWithTag("dice" + playerID.ToString() + "_2").GetComponent<RandomDice>();        
         fx_PayCoin = GameObject.FindGameObjectWithTag("Fx_PayCoin").transform.Find("Fx_PayCoin" + playerID.ToString()).gameObject;
         fx_PayCoin2 = GameObject.FindGameObjectWithTag("Fx_PayCoin").transform.Find(playerID.ToString() + "P").transform.Find("fx_Pay").gameObject;
         fx_Devil = transform.Find("Card_Fx").transform.Find("10_spine_deveil").gameObject;
         fx_Peace = transform.Find("Card_Fx").transform.Find("20_peacehand").gameObject;
+        canvas_PlayerLabel = transform.Find("Canvas_PlayerLabel").gameObject;
         uiManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
         Txt_Asset = uiManager.transform.Find("PlayerInfo").Find("Player_" + playerID).Find("BG").Find("Info").Find("Text_Info").Find("Txt_Asset").GetComponent<Text>();
         Txt_TotalAsset = uiManager.transform.Find("PlayerInfo").Find("Player_" + playerID).Find("BG").Find("Info").Find("Text_Info").Find("TotalAsset").Find("Txt_TotalAsset").GetComponent<Text>();
@@ -118,7 +123,8 @@ public class PlayerCtrl : MonoBehaviour
         observer_1 = new ConcreteObserver_1("Player_" + playerID.ToString(), roundManager.round_Player);
         roundManager.round_Player.Attach(observer_1);
         dice1.gameObject.SetActive(false);
-        dice2.gameObject.SetActive(false);        
+        dice2.gameObject.SetActive(false);
+        playerLabel_OldPos = canvas_PlayerLabel.transform.position.y;
         SetInfo();
     }
     private void Start()
@@ -131,23 +137,14 @@ public class PlayerCtrl : MonoBehaviour
         PlayerAction();
         if (Txt_Asset != null && Txt_TotalAsset != null)
         {
-            if (playerID == 1)
-            {
-                Txt_Asset.text = TextThousand.Instance.SetText(PlayerInfo.Assets);
-                Txt_TotalAsset.text = TextThousand.Instance.SetText(PlayerInfo.TotalAssets);
-            }
-            else
-            {
-                Txt_Asset.text = PlayerInfo.Assets.ToString("##,##");
-                Txt_TotalAsset.text = PlayerInfo.TotalAssets.ToString("##,##");
-            }
-            
+            Txt_Asset.text = TextThousand.Instance.SetText(PlayerInfo.Assets);
+            Txt_TotalAsset.text = TextThousand.Instance.SetText(PlayerInfo.TotalAssets);
         }
     }
 
     public void SetInfo()
     {
-        //int money = playerID == 1 ? 7000 : (int)ReadGameValue.Instance.GetValue(1);
+        //int money = playerID == 1 ? 200000 : (int)ReadGameValue.Instance.GetValue(1);
         PlayerInfo = new PlayerInfo(playerID, (int)ReadGameValue.Instance.GetValue(1), 0);
     }
     #region 擲骰子

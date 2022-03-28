@@ -56,7 +56,7 @@ public class UIManager : MonoBehaviour
             round.player1.ui_Lose.SetActive(false);
             round.player1.playerState = PlayerCtrl.PlayerState.Stay;
         }
-        /*if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             //round.cardSubject.setState(0);
             Debug.Log(round.cardSubject.GetState() + "@");
@@ -67,7 +67,7 @@ public class UIManager : MonoBehaviour
             round.now_Player.road_Dice = 4;
             round.now_Player.playerState = PlayerCtrl.PlayerState.Move;
         }
-        if (Input.GetKeyDown(KeyCode.Z))
+        /*if (Input.GetKeyDown(KeyCode.Z))
         {
             round.now_Player.road_Dice = 16;
             round.now_Player.playerState = PlayerCtrl.PlayerState.Move;

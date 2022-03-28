@@ -150,7 +150,6 @@ public class Corner : MonoBehaviour
         }
         else if (!player.uiManager.ui_BuyGround.activeInHierarchy && !CanUrban(player))
         {
-            Debug.Log("關閉都更");
             if (player.myGounds.Count <= 0)
             {
                 uIManager.TipAndClose(player, "NoMoney", "未擁有土地", 1.2f);
@@ -209,7 +208,6 @@ public class Corner : MonoBehaviour
     {
         if (!player.uiManager.ui_BuyGround.active && !player.toMRT)
         {
-            Debug.Log("關閉高鐵");
             player.uiManager.isActDone = true;
             player.toMRT = true;
             player.SetHappy();

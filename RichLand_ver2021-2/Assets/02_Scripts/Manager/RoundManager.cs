@@ -43,6 +43,7 @@ public class RoundManager : MonoBehaviour
 
     private void Awake()
     {
+        EndRound = (int)ReadGameValue.Instance.GetValue(54);
         roundTurn = RoundCount.countRound;
         switchPlayer = 0;
         roundCount = 0;
@@ -75,7 +76,7 @@ public class RoundManager : MonoBehaviour
                 {
                     round_Player.setState(0);
                     roundCount += 1;
-                    roundTurn = roundCount != EndRound ? RoundCount.Switch : RoundCount.GameEnd;
+                    roundTurn = roundCount <= EndRound ? RoundCount.Switch : RoundCount.GameEnd;
                     break;
                 }
             case RoundCount.Switch: //ª±®a½üÂà
@@ -183,13 +184,16 @@ public class RoundManager : MonoBehaviour
 
     private void GameSettlement()
     {
-        if (player1.PlayerInfo.Assets > player2.PlayerInfo.Assets)
+        int player1Money = player1.PlayerInfo.Assets + player1.PlayerInfo.TotalAssets;
+        int player2Money = player2.PlayerInfo.Assets + player2.PlayerInfo.TotalAssets;
+
+        if (player1Money > player2Money)
         {
             player1.playerState = PlayerCtrl.PlayerState.Win;
             player2.playerState = PlayerCtrl.PlayerState.Lose;
             return;
         }
-        if (player1.PlayerInfo.Assets < player2.PlayerInfo.Assets)
+        if (player1Money < player2Money)
         {
             player1.playerState = PlayerCtrl.PlayerState.Lose;
             player2.playerState = PlayerCtrl.PlayerState.Win;

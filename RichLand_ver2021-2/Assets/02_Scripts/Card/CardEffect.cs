@@ -235,7 +235,9 @@ public class CardEffect : MonoBehaviour
         }
         if (cardInfo.CardID == 10)
         {
+            Vector3 pos = targetPlayer.canvas_PlayerLabel.transform.position;
             targetPlayer.fx_Devil.SetActive(false);
+            targetPlayer.canvas_PlayerLabel.transform.position = new Vector3(pos.x, targetPlayer.playerLabel_OldPos, pos.z);
         }
         if (cardInfo.CardID == 13 && targetFloor != null)
         {
@@ -245,8 +247,12 @@ public class CardEffect : MonoBehaviour
         }
         if (cardInfo.CardID == 20 && !owner.isHaveCard(20) && !owner.otherPlayer.isHaveCard(20))
         {
+            Vector3 pos1 = roundManager.player1.canvas_PlayerLabel.transform.position;
+            Vector3 pos2 = roundManager.player2.canvas_PlayerLabel.transform.position;
             roundManager.player1.fx_Peace.SetActive(false);
             roundManager.player2.fx_Peace.SetActive(false);
+            roundManager.player1.canvas_PlayerLabel.transform.position = new Vector3(pos1.x, roundManager.player1.playerLabel_OldPos, pos1.z);
+            roundManager.player2.canvas_PlayerLabel.transform.position = new Vector3(pos2.x, roundManager.player2.playerLabel_OldPos, pos2.z);
         }
         Destroy(gameObject);
         Debug.Log("卡片" + cardInfo.CardID + "消失");
@@ -722,10 +728,12 @@ public class CardEffect : MonoBehaviour
             if (!hasLaunched && isAniEnd)
             {
                 if (targetPlayer != owner && IsShield(targetPlayer)) return;
+                Vector3 pos = targetPlayer.canvas_PlayerLabel.transform.position;
                 hasLaunched = true;
                 targetPlayer.isDevil = true;
                 targetPlayer.devilTolls = devilDiscount;
                 targetPlayer.fx_Devil.SetActive(true);
+                targetPlayer.canvas_PlayerLabel.transform.position = new Vector3(pos.x, pos.y + 1.8f, pos.z);
                 txt_EndRound = targetPlayer.fx_Devil.GetComponentInChildren<Text>();
                 roundManager.cardSubject.setState(0);
                 roundManager.SetCurrentState();
@@ -866,7 +874,6 @@ public class CardEffect : MonoBehaviour
         {
             owner.isPeace = true;
             OpenCard();
-            if (!isAniEnd) return;
             fx_Pos = new(owner.transform.position.x + 0.2f, owner.transform.position.y + 4f, owner.transform.position.z);
             PlayFx(false);
             isEnd = true;
@@ -916,9 +923,13 @@ public class CardEffect : MonoBehaviour
         {
             if (!isAniEnd)
             {
+                Vector3 pos1 = owner.canvas_PlayerLabel.transform.position;
+                Vector3 pos2 = owner.otherPlayer.canvas_PlayerLabel.transform.position;
                 OpenCard();
-                roundManager.player1.fx_Peace.SetActive(true);
-                roundManager.player2.fx_Peace.SetActive(true);
+                owner.fx_Peace.SetActive(true);
+                owner.otherPlayer.fx_Peace.SetActive(true);
+                owner.canvas_PlayerLabel.transform.position = new Vector3(pos1.x, pos1.y + 1.2f, pos1.z);
+                owner.otherPlayer.canvas_PlayerLabel.transform.position = new Vector3(pos2.x, pos2.y + 1.2f, pos2.z);
                 txt_EndRounds.Add(roundManager.player1.fx_Peace.GetComponentInChildren<Text>());
                 txt_EndRounds.Add(roundManager.player2.fx_Peace.GetComponentInChildren<Text>());
                 roundManager.cardSubject.setState(0);

@@ -17,10 +17,10 @@ public class PayTolls : MonoBehaviour
     {
         if (round != null && player != null)
         {
+            if (player.isPay) return;
             round.cardSubject.setState(20);
             BG_Mask.SetActive(false);
             ground_Info = player.groundInfo;
-            if (player.isPay) return;
             player.isPay = true;
             StartCoroutine(OpenAct());
         }
@@ -48,7 +48,7 @@ public class PayTolls : MonoBehaviour
     }
     IEnumerator OpenAct()
     {
-        yield return new WaitForFixedUpdate();
+        yield return new WaitForSeconds(0.1f);
         isPeace = player.isPeace;
         StartCoroutine(DelayOpen());
     }
@@ -58,7 +58,7 @@ public class PayTolls : MonoBehaviour
             round.cardSubject.setState(16);
         else if (isPeace || ground_Info.isPowerOff) 
             SkipPay();
-        yield return new WaitForFixedUpdate();
+        yield return new WaitForSeconds(0.3f);
         isAngel = player.isPeace;
         if (player.otherPlayer.passCount < 1) //需要支付過路費
         {
@@ -81,7 +81,7 @@ public class PayTolls : MonoBehaviour
         _tolls = player.isDevil ? (int)Math.Ceiling(_tolls * player.devilTolls) : _tolls;
         _tolls = _tolls < 0 ? 0 : _tolls;
         if (isPeace)
-        {
+        {           
             player.isPay = true;
             uIManager.isActDone = true;
             return;
@@ -90,9 +90,11 @@ public class PayTolls : MonoBehaviour
         {
             if (isAngel)
             {
+                if (player.isHaveCard(16))
+                    player.Card(16).isEnd = true;
                 uIManager.CutScenes(player, "Card_Angel", 1f);
             }
-            if (!isPeace && !isAngel && !ground_Info.isPowerOff)
+            if (!isPeace && !isAngel && !ground_Info.isPowerOff && player.PlayerInfo.Assets >= _tolls)
             {
                 player.PlayerInfo.Assets -= _tolls;
                 player.otherPlayer.PlayerInfo.Assets += _tolls;
