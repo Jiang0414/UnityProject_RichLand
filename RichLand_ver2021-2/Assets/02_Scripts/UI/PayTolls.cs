@@ -58,7 +58,7 @@ public class PayTolls : MonoBehaviour
             round.cardSubject.setState(16);
         else if (isPeace || ground_Info.isPowerOff) 
             SkipPay();
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.15f);
         isAngel = player.isPeace;
         if (player.otherPlayer.passCount < 1) //需要支付過路費
         {
