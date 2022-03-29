@@ -56,7 +56,7 @@ public class PayTolls : MonoBehaviour
     {
         if (!isPeace)
             round.cardSubject.setState(16);
-        else if (isPeace || ground_Info.isPowerOff) 
+        else if (isPeace || ground_Info.isPowerOff)
             SkipPay();
         yield return new WaitForSeconds(0.15f);
         isAngel = player.isPeace;
@@ -81,7 +81,7 @@ public class PayTolls : MonoBehaviour
         _tolls = player.isDevil ? (int)Math.Ceiling(_tolls * player.devilTolls) : _tolls;
         _tolls = _tolls < 0 ? 0 : _tolls;
         if (isPeace)
-        {           
+        {
             player.isPay = true;
             uIManager.isActDone = true;
             return;
@@ -100,12 +100,12 @@ public class PayTolls : MonoBehaviour
                 player.otherPlayer.PlayerInfo.Assets += _tolls;
                 //角色動作
                 player.otherPlayer.SetHappy();
-                player.SetSad();                
+                player.SetSad();
             }
             if (ground_Info.Info.HouseLv < 4 && player.PlayerInfo.Assets >= ground_Info.Info.GroundValue)  //支付並選擇是否購買
             {
                 round.cardSubject.setState(19);
-                if(!player.isHaveCard(19) && player.isHaveCard(6))
+                if (!player.isHaveCard(19) && player.isHaveCard(6))
                 {
                     StartCoroutine(BuyOriginPrice(player, 1.8f));
                 }
@@ -122,8 +122,8 @@ public class PayTolls : MonoBehaviour
             return;
         }
         else if (player.PlayerInfo.Assets < _tolls && !isPeace && !isAngel) //無法支付過路費
-        { 
-            if(player.myGounds.Count > 0 && SoldCount() > _tolls) // 變賣房產
+        {
+            if (player.myGounds.Count > 0 && SoldCount() > _tolls) // 變賣房產
             {
                 player.SetSad();
                 player.otherPlayer.SetHappy();
@@ -139,7 +139,7 @@ public class PayTolls : MonoBehaviour
                 round.roundTurn = RoundManager.RoundCount.GameEnd;
                 player.isPay = true;
                 uIManager.isActDone = true;
-            }            
+            }
         }
     }
     IEnumerator BuyOriginPrice(PlayerCtrl player, float sec)
@@ -155,7 +155,7 @@ public class PayTolls : MonoBehaviour
         {
             BG_Mask.SetActive(false);
             player.fx_PayCoin.SetActive(true);
-        }            
+        }
         uIManager.CutScenesSwitch(player, uiTip, uiName, sec);
         yield return new WaitForSeconds(sec + 0.1f);
         player.fx_PayCoin.SetActive(false);
@@ -172,7 +172,7 @@ public class PayTolls : MonoBehaviour
     {
         BG_Mask.SetActive(false);
         uIManager.CutScenes(player, uiTip, sec);
-        if(ispay)
+        if (ispay)
             player.fx_PayCoin.SetActive(true);
         yield return new WaitForSeconds(sec + 0.5f);
         if (ispay)
