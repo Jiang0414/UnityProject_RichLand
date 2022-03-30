@@ -129,7 +129,7 @@ public class PayTolls : MonoBehaviour
                 player.otherPlayer.SetHappy();
                 if (!player.toSoldHouse)
                 {
-                    StartCoroutine(SoldDelay());
+                    StartCoroutine(SoldDelay(_tolls));
                     return;
                 }
             }
@@ -185,13 +185,14 @@ public class PayTolls : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    IEnumerator SoldDelay()
+    IEnumerator SoldDelay(int tolls)
     {
         yield return new WaitForSeconds(0.2f);
         player.toSoldHouse = true;
         floorBtn selectUI = uIManager.ui_BuyGround.GetComponent<PageCtrl>().GetPage("SelectGround_Urban").GetComponentInChildren<floorBtn>();
         selectUI.player = player;
         selectUI.btnState = floorBtn.BtnState.isSold;
+        selectUI.payMoney = tolls;
 
         uIManager.ui_BuyGround.GetComponent<PageCtrl>().Mask.SetActive(false);
         uIManager.ui_BuyGround.GetComponent<PageCtrl>().Mask2.SetActive(true);

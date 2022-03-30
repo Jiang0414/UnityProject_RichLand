@@ -533,6 +533,7 @@ public class floorBtn : MonoBehaviour
         }
         player.PlayerInfo.Assets += soldMoney;
         player.toSoldHouse = false;
+        player.CountTotalAsset();
         uIManager.ui_BuyGround.GetComponent<PageCtrl>().Mask.SetActive(true);
         uIManager.ui_BuyGround.GetComponent<PageCtrl>().Mask2.SetActive(false);
         if (!player.groundInfo.isNotRoad)
