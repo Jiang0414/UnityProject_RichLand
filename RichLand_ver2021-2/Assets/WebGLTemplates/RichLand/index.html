@@ -65,6 +65,7 @@
         meta.name = 'viewport';
         document.getElementsByTagName('head')[0].appendChild(meta);
         container.className = "unity-mobile";
+        canvas.style.position = 'absolute';
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
@@ -73,15 +74,22 @@
         var orientation = screen.orientation;
         if(orientation.type === "landscape-primary" || orientation.type === "landscape-secondary")
         {
-            meta.content = 'width=device-height, height=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-            canvas.style.width = (window.innerHeight*16) / 9 + 'px';
+            meta.content = 'width=device-height, height=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';            
+            var newWidth = (window.innerHeight*16) / 9;
+            if(newWidth > window.innerWidth)
+            {
+                newWidth = window.innerWidth;
+            }
+            canvas.style.width = newWidth + 'px';
             canvas.style.height = window.innerHeight + 'px';
-            console.log("landscape");            
+            canvas.style.left = window.innerWidth/ 2 - newWidth/ 2  + 'px';
+            console.log("landscape");   
         }else if(orientation.type === "portrait-secondary" || orientation.type === "portrait-primary")
         {
             meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
             canvas.style.width = window.innerWidth + 'px';
             canvas.style.height = (window.innerWidth*9) / 16 + 'px';
+            canvas.style.left = 0  + 'px';
             console.log("portrait");
         }    
 
@@ -128,15 +136,22 @@
         var orientation = screen.orientation;
         if(orientation.type === "landscape-primary" || orientation.type === "landscape-secondary")
         {
-            meta.content = 'width=device-height, height=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-            canvas.style.width = (window.innerHeight*16) / 9 + 'px';
+            meta.content = 'width=device-height, height=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';            
+            var newWidth = (window.innerHeight*16) / 9;
+            if(newWidth > window.innerWidth)
+            {
+                newWidth = window.innerWidth;
+            }
+            canvas.style.width = newWidth + 'px';
             canvas.style.height = window.innerHeight + 'px';
-            console.log("landscape2");
+            canvas.style.left = window.innerWidth/ 2 - newWidth/ 2  + 'px';
+            console.log("landscape2");   
         }else if(orientation.type === "portrait-secondary" || orientation.type === "portrait-primary")
         {
             meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
             canvas.style.width = window.innerWidth + 'px';
             canvas.style.height = (window.innerWidth*9) / 16 + 'px';
+            canvas.style.left = 0  + 'px';
             console.log("portrait2");
         }    
         //unityShowBanner('WebGL builds are not supported on mobile devices.');
