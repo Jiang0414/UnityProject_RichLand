@@ -144,7 +144,8 @@ public class PlayerCtrl : MonoBehaviour
 
     public void SetInfo()
     {
-        //int money = playerID == 1 ? 200000 : (int)ReadGameValue.Instance.GetValue(1);
+        //int money = playerID == 1 ? 90000 : (int)ReadGameValue.Instance.GetValue(1);
+        //PlayerInfo = new PlayerInfo(playerID, money, 0);
         PlayerInfo = new PlayerInfo(playerID, (int)ReadGameValue.Instance.GetValue(1), 0);
     }
     #region ÂY»ë¤l
@@ -347,8 +348,12 @@ public class PlayerCtrl : MonoBehaviour
                     dice2.gameObject.SetActive(false);
                     dice1.transform.position = dice1.inPos;
                     dice2.transform.position = dice2.inPos;
-
-                    if(roundManager.now_Player.playerID.Equals(playerID))
+                    if (otherPlayer.isHaveCard(10))
+                    {
+                        CardEffect card = otherPlayer.Card(10);
+                        card.cardInfo.ContinuedRound -= 1;
+                    }
+                    if (roundManager.now_Player.playerID.Equals(playerID))
                         roundManager.roundTurn = playerID != 2 ? RoundManager.RoundCount.Switch : RoundManager.RoundCount.countRound;
 
                     break;

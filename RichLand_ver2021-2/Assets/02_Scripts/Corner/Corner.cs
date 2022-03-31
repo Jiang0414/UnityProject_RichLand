@@ -91,7 +91,7 @@ public class Corner : MonoBehaviour
         }
         else
         {
-            if (player.PlayerInfo.Assets > player.diceNumber * vacationMoney)
+            if (player.PlayerInfo.Assets >= player.diceNumber * vacationMoney)
             {
                 player.SetHappy();
                 player.PlayerInfo.Assets -= player.diceNumber * vacationMoney;
@@ -121,14 +121,17 @@ public class Corner : MonoBehaviour
         int soldMoney = 0;
             foreach (var ground in player.myGounds)
             {
-                soldMoney += ground.buildPrice;
+                soldMoney += ground.Info.GroundValue;
             }
 
-        if (payMoney < soldMoney) return;
-        player.otherPlayer.PlayerInfo.Assets += player.PlayerInfo.Assets;
-        player.PlayerInfo.Assets = 0;
-        player.playerState = PlayerCtrl.PlayerState.Lose;
-        round.roundTurn = RoundManager.RoundCount.GameEnd;
+        if (payMoney > soldMoney)
+        {
+            player.otherPlayer.PlayerInfo.Assets += player.PlayerInfo.Assets;
+            player.PlayerInfo.Assets = 0;
+            player.playerState = PlayerCtrl.PlayerState.Lose;
+            round.roundTurn = RoundManager.RoundCount.GameEnd;
+            return;
+        }        
     }
     #endregion
 

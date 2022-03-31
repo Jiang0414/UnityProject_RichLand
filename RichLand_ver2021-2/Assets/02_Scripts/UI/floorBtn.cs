@@ -533,9 +533,11 @@ public class floorBtn : MonoBehaviour
         }
         player.PlayerInfo.Assets += soldMoney;
         player.toSoldHouse = false;
-        player.CountTotalAsset();
         uIManager.ui_BuyGround.GetComponent<PageCtrl>().Mask.SetActive(true);
         uIManager.ui_BuyGround.GetComponent<PageCtrl>().Mask2.SetActive(false);
+        player.CountTotalAsset();
+        btn_Sold.SetActive(false);
+        CloseFX();
         if (!player.groundInfo.isNotRoad)
         {
             player.isPay = false;
@@ -549,9 +551,6 @@ public class floorBtn : MonoBehaviour
             player.PlayerInfo.Assets -= payMoney;
             uIManager.isActDone = true;
         }
-        player.CountTotalAsset();
-        btn_Sold.SetActive(false);
-        CloseFX();
     }
 
     private bool CanSold()

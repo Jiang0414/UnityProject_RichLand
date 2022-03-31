@@ -52,8 +52,13 @@ public class CardEffect : MonoBehaviour
     {
         if (!cardInfo.ContinuedRound.Equals(0) && roundManager.roundCount >= endRound)
         {
-            Card_End();
+            if(cardInfo.CardID != 10)
+                Card_End();
             return;
+        }
+        if ((cardInfo.CardID == 10 && cardInfo.ContinuedRound < 1))
+        {
+            Card_End();
         }
         if (isEnd && isAniEnd)
         {
@@ -345,7 +350,11 @@ public class CardEffect : MonoBehaviour
     }
     private void Text_RoundCount()
     {
-        if(txt_EndRound != null && (cardInfo.CardID == 13 || cardInfo.CardID == 10))
+        if (txt_EndRound != null && cardInfo.CardID == 10)
+        {
+            txt_EndRound.text = "x" + cardInfo.ContinuedRound;
+        }
+        if (txt_EndRound != null && cardInfo.CardID == 13)
         {
             txt_EndRound.text = "x" + (endRound - roundManager.roundCount);
         }

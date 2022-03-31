@@ -70,13 +70,7 @@ public class PayTolls : MonoBehaviour
         }
     }
     public void Pay_Tolls()  //支付過路費判定
-    {
-        if (player.otherPlayer.isHaveCard(10))
-        {
-            CardEffect card = player.otherPlayer.Card(10);
-            card.fx_Pos = new(card.targetPlayer.transform.position.x + 0.5f, card.targetPlayer.transform.position.y + 4f, card.targetPlayer.transform.position.z);
-            card.PlayFx(false);
-        }
+    {        
         int _tolls = ground_Info.Info.Tolls;
         _tolls = player.isDevil ? (int)Math.Ceiling(_tolls * player.devilTolls) : _tolls;
         _tolls = _tolls < 0 ? 0 : _tolls;
@@ -102,7 +96,7 @@ public class PayTolls : MonoBehaviour
                 player.otherPlayer.SetHappy();
                 player.SetSad();
             }
-            if (ground_Info.Info.HouseLv < 4 && player.PlayerInfo.Assets >= ground_Info.Info.GroundValue)  //支付並選擇是否購買
+            if (ground_Info.Info.HouseLv < 4 && player.PlayerInfo.Assets >= ground_Info.buildPrice * ReadGameValue.Instance.GetValue(3))  //支付並選擇是否購買
             {
                 round.cardSubject.setState(19);
                 if (!player.isHaveCard(19) && player.isHaveCard(6))
