@@ -54,6 +54,9 @@ public class PlayerCtrl : MonoBehaviour
     public GameObject fx_PayCoin, fx_PayCoin2, fx_Devil, fx_Peace;
     [HideInInspector]
     public GameObject canvas_PlayerLabel;
+    private Text txtLabel;
+    private Image imgLabel;
+
     [HideInInspector]
     public float playerLabel_OldPos;
 
@@ -125,12 +128,16 @@ public class PlayerCtrl : MonoBehaviour
         dice1.gameObject.SetActive(false);
         dice2.gameObject.SetActive(false);
         playerLabel_OldPos = canvas_PlayerLabel.transform.position.y;
+
+        txtLabel = canvas_PlayerLabel.GetComponentInChildren<Text>();
+        imgLabel = canvas_PlayerLabel.GetComponentInChildren<Image>();
         SetInfo();
     }
     private void Start()
     {
         otherPlayer = playerID < 2 ? roundManager.player2 : roundManager.player1;
         StartCoroutine(DelayCount());
+        groundInfo = roads.floors[0].GetComponent<Ground_Info>();
     }
     private void Update()
     {
@@ -141,7 +148,10 @@ public class PlayerCtrl : MonoBehaviour
             Txt_TotalAsset.text = TextThousand.Instance.SetText(PlayerInfo.TotalAssets);
         }
     }
-
+    private void FixedUpdate()
+    {
+        SetLabel();
+    }
     public void SetInfo()
     {
         //int money = playerID == 1 ? 90000 : (int)ReadGameValue.Instance.GetValue(1);
@@ -576,5 +586,25 @@ public class PlayerCtrl : MonoBehaviour
         audioSource.Play();
     }
 
+    #endregion
+
+    #region ¼ÐÅÒ³z©ú«×
+    public void SetLabel()
+    {
+        if (groundInfo == null) return;
+
+        if(groundInfo.groundID == 0 || groundInfo.groundID == 1 || groundInfo.groundID == 31)
+        {
+            txtLabel.color = new Color(0, 0, 0, 0f);
+            imgLabel.color = new Color(0, 0, 0, 0f);
+            Debug.Log("@@@@");
+        }
+        else
+        {
+            txtLabel.color = new Color(0, 0, 0, 1);
+            imgLabel.color = new Color(0, 0, 0, 1);
+            Debug.Log("@@@@");
+        }
+    }
     #endregion
 }

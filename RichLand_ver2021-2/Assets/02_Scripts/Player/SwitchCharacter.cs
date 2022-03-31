@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SwitchCharacter : MonoBehaviour
 {
     private PlayerCtrl player;
-    private List<Animator> animators = new List<Animator>();
+    public List<Animator> animators = new List<Animator>();
     private Image img_Head;
     public List<Sprite> heads;
 
@@ -19,6 +19,10 @@ public class SwitchCharacter : MonoBehaviour
             if(ani.name.Contains("Character"))
                 animators.Add(ani.GetComponent<Animator>());
         }
+    }
+    private void Start()
+    {
+        setCharacter();
     }
 
     private void Update()
@@ -55,6 +59,18 @@ public class SwitchCharacter : MonoBehaviour
         }
     }
 
+    public void setCharacter()
+    {
+        if (player.playerID != 1 || UserInfo.characterName == null) return;
+        for(int i = 0; i < animators.Count; i++)
+        {
+            if (animators[i].gameObject.name == UserInfo.characterName)
+            {
+                Change(i);
+                break;
+            }
+        }
+    }
 
     private void Change(int i)
     {
