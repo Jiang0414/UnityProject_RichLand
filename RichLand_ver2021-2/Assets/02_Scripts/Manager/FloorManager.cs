@@ -8,9 +8,9 @@ public class FloorManager : MonoBehaviour
 {
     public List<Transform> floors = new List<Transform>();
     private bool HaveNoOwnerFloor;
-    private void Start()
+    private void Awake()
     {
-        GetRoads();
+        GetRoads(); 
     }
 
     private void GetRoads()

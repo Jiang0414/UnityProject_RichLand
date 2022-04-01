@@ -56,6 +56,7 @@ public class PlayerCtrl : MonoBehaviour
     public GameObject canvas_PlayerLabel;
     private Text txtLabel;
     private Image imgLabel;
+    private Outline lineLabel;
 
     [HideInInspector]
     public float playerLabel_OldPos;
@@ -131,6 +132,7 @@ public class PlayerCtrl : MonoBehaviour
 
         txtLabel = canvas_PlayerLabel.GetComponentInChildren<Text>();
         imgLabel = canvas_PlayerLabel.GetComponentInChildren<Image>();
+        lineLabel = canvas_PlayerLabel.GetComponentInChildren<Outline>();
         SetInfo();
     }
     private void Start()
@@ -593,17 +595,23 @@ public class PlayerCtrl : MonoBehaviour
     {
         if (groundInfo == null) return;
 
-        if(groundInfo.groundID == 0 || groundInfo.groundID == 1 || groundInfo.groundID == 31)
+        if(uiManager.btn_RollDice.gameObject.activeInHierarchy && (groundInfo.groundID == 0 || groundInfo.groundID == 1 || groundInfo.groundID == 31))
         {
-            txtLabel.color = new Color(0, 0, 0, 0f);
-            imgLabel.color = new Color(0, 0, 0, 0f);
-            Debug.Log("@@@@");
+            if(playerID == 1)
+                txtLabel.color = new Color(0, 0, 1, 0.5f);
+            else if (playerID == 2)
+                txtLabel.color = new Color(1, 0, 0, 0.5f);
+            imgLabel.color = new Color(1, 1, 1, 0.5f);
+            lineLabel.effectColor = new Color(1, 1, 1, 0.5f);
         }
         else
         {
-            txtLabel.color = new Color(0, 0, 0, 1);
-            imgLabel.color = new Color(0, 0, 0, 1);
-            Debug.Log("@@@@");
+            if (playerID == 1)
+                txtLabel.color = new Color(0, 0, 1, 1);
+            else if (playerID == 2)
+                txtLabel.color = new Color(1, 0, 0, 1);
+            imgLabel.color = new Color(1, 1, 1, 1);
+            lineLabel.effectColor = new Color(1, 1, 1, 1);
         }
     }
     #endregion

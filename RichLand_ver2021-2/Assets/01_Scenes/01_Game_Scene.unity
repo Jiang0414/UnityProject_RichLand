@@ -700,6 +700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7023cff99991a5f499d1e7e46b7f4874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animators: []
   heads:
   - {fileID: 21300000, guid: b5a64a93ae8b7184684011945d22b32a, type: 3}
   - {fileID: 21300000, guid: 9b895fcbcb9da0e4693452ee5960e9d5, type: 3}
@@ -58748,6 +58749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7023cff99991a5f499d1e7e46b7f4874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animators: []
   heads:
   - {fileID: 21300000, guid: 12f061ca856344a41aa1e3273c391b92, type: 3}
   - {fileID: 21300000, guid: d9646ce8e056d5b4d87b6560d4a97941, type: 3}
