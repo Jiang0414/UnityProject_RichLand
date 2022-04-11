@@ -21,9 +21,17 @@ public class TextThousand : MonoBehaviour
     }
     public string SetText(double number)
     {
-        number = number > 0 ? Math.Round(number / 10000, 4) : number;
-        txtFormat = number > 0 ? "0.#####.¸U" : "0";
-        txtValue = number.ToString(txtFormat);
+        if(number >= 10000)
+        {
+            number = number > 0 ? Math.Round(number / 10000, 4) : number;
+            txtFormat = number > 0 ? "0.#####.¸U" : "0";
+            txtValue = number.ToString(txtFormat);
+        }
+        else if (number < 10000)
+        {
+            txtFormat = "###,###,0";
+            txtValue = number.ToString(txtFormat);
+        }
         return txtValue;
     }
 }

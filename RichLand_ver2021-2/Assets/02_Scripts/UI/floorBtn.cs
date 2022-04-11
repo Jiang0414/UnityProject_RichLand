@@ -20,7 +20,7 @@ public class floorBtn : MonoBehaviour
     public Sprite img_Sold, img_NoSold;
     public PlayerCtrl player;
     public List<Ground_Info> grounds = new List<Ground_Info>();
-
+    private Transform arrow;
 
     public enum BtnState
     {
@@ -58,7 +58,8 @@ public class floorBtn : MonoBehaviour
         if(isfloor)
             ground_Info.transform.Find("Fx_FloorSelect").gameObject.SetActive(true);
         else if (!isfloor && ground_Info.transform.parent.name.Contains("Roads"))
-            ground_Info.transform.parent.transform.Find("Fx_RoadSelect").gameObject.SetActive(true);        
+            ground_Info.transform.parent.transform.Find("Fx_RoadSelect").gameObject.SetActive(true);
+        Reset_arrow(ui_GroundBtn.transform.Find("Select"));
     }
 
     private void CloseFX()
@@ -349,7 +350,7 @@ public class floorBtn : MonoBehaviour
                             if (Regex.Replace(floor.name, "[^0-9]", "") == Regex.Replace(btn_Floor.name, "[^0-9]", ""))
                             {
                                 btnState = BtnState.Idle;
-                                Corner.Instance.Btn_Urban(player, floor.GetComponent<Ground_Info>());
+                                Corner.Instance.Btn_Urban(player, floor.GetComponent<Ground_Info>());                                
                                 CloseFX();
                                 break;
                             }
@@ -389,13 +390,13 @@ public class floorBtn : MonoBehaviour
                                 {
                                     grounds.Add(_Info);
                                 }
-
                             }
                             else
                             {
                                 grounds.Add(_Info);
                             }
-
+                            Debug.Log(transform.name);
+                            Set_arrow(_Info);
                             CanSold();
                             break;
                         }
@@ -502,6 +503,47 @@ public class floorBtn : MonoBehaviour
                 }
         }
     }
+    public void Reset_arrow(Transform Arrow)
+    {
+        foreach (Transform arrow in Arrow)
+        {
+            arrow.gameObject.SetActive(false);
+        }
+    }
+    public void Set_arrow(Ground_Info ground)
+    {
+        foreach (Transform a in transform)
+        {
+            if (Regex.Replace(a.name, "[^0-9]", "") == Regex.Replace(ground.gameObject.name, "[^0-9]", ""))
+            {
+                arrow = a.transform.Find("Select");
+            }
+        }
+
+        if (ground.owner == 1)
+        {
+            if (!arrow.transform.Find("P1").gameObject.activeInHierarchy)
+            {
+                arrow.transform.Find("P1").gameObject.SetActive(true);
+            }
+            else
+            {
+                arrow.transform.Find("P1").gameObject.SetActive(false);
+            }
+        }
+        else if (ground.owner == 2)
+        {
+            if (!arrow.transform.Find("P2").gameObject.activeInHierarchy)
+            {
+                arrow.transform.Find("P2").gameObject.SetActive(true);
+            }
+            else
+            {
+                arrow.transform.Find("P2").gameObject.SetActive(false);
+            }
+        }
+    }
+
     private void Card_FloorBtn(int cardId)
     {
         btnState = BtnState.Idle;

@@ -47,7 +47,7 @@ MonoBehaviour:
     contentvalue: 30000
   - id: 53
     content: "\u65C5\u904A\u82B1\u9322"
-    contentvalue: 6000
+    contentvalue: 10000
   - id: 54
     content: "\u7D50\u675F\u56DE\u5408"
     contentvalue: 100
@@ -84,7 +84,7 @@ MonoBehaviour:
     contentvalue: 30000
   - id: 53
     content: "\u65C5\u904A\u82B1\u9322"
-    contentvalue: 6000
+    contentvalue: 10000
   - id: 54
     content: "\u7D50\u675F\u56DE\u5408"
     contentvalue: 100
