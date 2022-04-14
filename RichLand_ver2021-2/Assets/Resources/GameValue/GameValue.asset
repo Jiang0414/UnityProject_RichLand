@@ -20,7 +20,7 @@ MonoBehaviour:
     contentvalue: 1200000
   - id: 2
     content: "\u904E\u8DEF\u8CBB\u500D\u7387"
-    contentvalue: 1
+    contentvalue: 1.2
   - id: 3
     content: "\u6536\u8CFC\u500D\u7387"
     contentvalue: 1.5
@@ -57,7 +57,7 @@ MonoBehaviour:
     contentvalue: 1200000
   - id: 2
     content: "\u904E\u8DEF\u8CBB\u500D\u7387"
-    contentvalue: 1
+    contentvalue: 1.2
   - id: 3
     content: "\u6536\u8CFC\u500D\u7387"
     contentvalue: 1.5

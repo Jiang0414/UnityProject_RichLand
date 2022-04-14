@@ -67,6 +67,7 @@ public class Buy_OtherGround : MonoBehaviour
         player.myGounds.Add(ground_Info);
         player.otherPlayer.myGounds.Remove(ground_Info);
         ground_Info.SetHouseLv();
+        ground_Info.SetTolls(ground_Info.Info.HouseLv);
         player.SetHappy();
         player.otherPlayer.SetSad();
         player.CountTotalAsset();

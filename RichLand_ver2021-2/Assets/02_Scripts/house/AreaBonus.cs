@@ -85,7 +85,7 @@ public class AreaBonus : MonoBehaviour
                 otherplayer.SetHappy();
             }
             bonus.SetActive(false);
-            SetTollsMag(ReadGameValue.Instance.GetValue(2), floors);
+            SetTollsMag(ReadGameValue.Instance.GetValue(6), floors);
         }
     }
     public void SetTollsMag(float Mag, List<Ground_Info> floors)

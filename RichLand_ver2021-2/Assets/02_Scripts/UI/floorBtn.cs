@@ -395,7 +395,6 @@ public class floorBtn : MonoBehaviour
                             {
                                 grounds.Add(_Info);
                             }
-                            Debug.Log(transform.name);
                             Set_arrow(_Info);
                             CanSold();
                             break;
@@ -603,7 +602,7 @@ public class floorBtn : MonoBehaviour
             soldMoney += ground.Info.GroundValue;
         }
         //soldMoney = (int)(soldMoney * ReadGameValue.Instance.GetValue(7));
-        double shortage = soldMoney - (payMoney - player.PlayerInfo.Assets) <= 0 ? 0 : soldMoney - (payMoney - player.PlayerInfo.Assets);
+        double shortage = (payMoney - player.PlayerInfo.Assets) - soldMoney <= 0 ? 0 : (payMoney - player.PlayerInfo.Assets) - soldMoney;
         
         if (shortage <= 0)
         {

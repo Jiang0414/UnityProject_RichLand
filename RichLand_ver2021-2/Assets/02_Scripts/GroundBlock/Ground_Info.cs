@@ -27,7 +27,7 @@ public class Ground_Info : MonoBehaviour
 
     private void Awake()
     {
-        tollsMag = ReadGameValue.Instance.GetValue(2);
+        tollsMag = ReadGameValue.Instance.GetValue(6);
         soldPrice = ReadGameValue.Instance.GetValue(3);
         round = GameObject.FindGameObjectWithTag("RoadManager").GetComponent<RoundManager>();
         audioSource = round.GetComponent<AudioSource>();

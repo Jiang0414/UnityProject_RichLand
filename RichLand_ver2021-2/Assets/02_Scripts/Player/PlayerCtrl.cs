@@ -156,7 +156,7 @@ public class PlayerCtrl : MonoBehaviour
     }
     public void SetInfo()
     {
-        //int money = playerID == 2 ? 10000 : (int)ReadGameValue.Instance.GetValue(1);
+        //int money = playerID == 1 ? 10000 : (int)ReadGameValue.Instance.GetValue(1);
         //PlayerInfo = new PlayerInfo(playerID, money, 0);
         PlayerInfo = new PlayerInfo(playerID, (int)ReadGameValue.Instance.GetValue(1), 0);
     }

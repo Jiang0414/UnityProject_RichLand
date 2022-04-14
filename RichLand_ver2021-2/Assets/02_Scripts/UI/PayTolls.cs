@@ -117,7 +117,7 @@ public class PayTolls : MonoBehaviour
         }
         else if (player.PlayerInfo.Assets < _tolls && !isPeace && !isAngel) //無法支付過路費
         {
-            Debug.Log("土地" + ground_Info.groundID + "的過路費:" + _tolls);
+            Debug.Log("土地" + ground_Info.groundID + "的過路費:" + _tolls + "現金:"+ player.PlayerInfo.Assets);
             if (player.myGounds.Count > 0 && SoldCount() > _tolls) // 變賣房產
             {
                 player.SetSad();
