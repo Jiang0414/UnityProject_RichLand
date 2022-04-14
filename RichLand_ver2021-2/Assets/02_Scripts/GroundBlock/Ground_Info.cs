@@ -76,50 +76,6 @@ public class Ground_Info : MonoBehaviour
     }
     public void SetHouseLv()
     {
-        #region ÂÂ¤èªk
-        /*if(Info.Owner != 0)
-        {
-            if (Info.HouseLv > 0)
-            {
-                audioSource.Play();
-                if (Info.HouseLv < 4)
-                {
-                    for (int i = 0; i < 4; i++)
-                    {
-                        houses[i].SetActive(Info.HouseLv > i);
-                        if(Info.HouseLv > i) houses[i].GetComponent<SetHouseColor>().SetColor();
-                        if (isCelebration) crownColor.SetColor();
-                    }
-                }
-                if (Info.HouseLv == 4)
-                {
-                    for (int i = 0; i < Info.HouseLv - 1; i++)
-                    {
-                        houses[i].SetActive(false);
-                    }
-                    houses[3].SetActive(true);
-                    houses[3].GetComponent<SetHouseColor>().SetColor();
-                    if (isCelebration) crownColor.SetColor();
-                }
-            }
-            if (Info.HouseLv < 1)
-            {
-                for (int i = 0; i < 4; i++)
-                {
-                    if (houses[i].active)
-                    {
-                        houses[i].SetActive(false);
-                        houses[i].GetComponent<CloseDelay>().FadeOut();
-                    }
-                }
-            }
-            txt_Price.text = TextThousand.Instance.SetText(Info.tolls);
-        }
-        else
-        {
-            txt_Price.text = "";
-        }*/
-        #endregion
         if (Info.HouseLv > 0)
         {
             houses[0].SetActive(false);

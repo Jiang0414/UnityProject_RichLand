@@ -600,12 +600,12 @@ public class floorBtn : MonoBehaviour
         soldMoney = 0;
         foreach (var ground in grounds)
         {
-            soldMoney += ground.buildPrice;
+            soldMoney += ground.Info.GroundValue;
         }
-        soldMoney = (int)(soldMoney * ReadGameValue.Instance.GetValue(7));
+        //soldMoney = (int)(soldMoney * ReadGameValue.Instance.GetValue(7));
         double shortage = soldMoney - (payMoney - player.PlayerInfo.Assets) <= 0 ? 0 : soldMoney - (payMoney - player.PlayerInfo.Assets);
         
-        if (soldMoney >= payMoney - player.PlayerInfo.Assets)
+        if (shortage <= 0)
         {
             btn_Sold.GetComponent<Image>().sprite = img_Sold;
             msg.text = "請選擇半價拋售房產" + "\n" + "拋售價錢: " + TextThousand.Instance.SetText(soldMoney) +

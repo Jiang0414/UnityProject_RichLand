@@ -419,10 +419,10 @@ public class BuyGround : MonoBehaviour
         ground_Info.Info.Owner = player.playerID;
         player.PlayerInfo.Assets -= finalPrice;
         player.myGounds.Add(ground_Info);
-        player.CountTotalAsset();
         ground_Info.Info.HouseLv = houseLv;
         ground_Info.SetHouseLv();
         player.SetHappy();
+        player.CountTotalAsset();
         Btn_CloseUI(3);
     }
     public void Btn_CloseUI(int audioclip) //UI«ö¶s_Ãö³¬

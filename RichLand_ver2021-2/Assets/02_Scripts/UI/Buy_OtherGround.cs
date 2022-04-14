@@ -60,8 +60,8 @@ public class Buy_OtherGround : MonoBehaviour
     public void Btn_BuyGound()
     {
         player.PlayerInfo.Assets -= finalPrice;
-        player.PlayerInfo.TotalAssets += groundValue;
         player.otherPlayer.PlayerInfo.Assets += groundValue;
+        player.PlayerInfo.TotalAssets -= ground_Info.Info.GroundValue;
         ground_Info.owner = player.PlayerInfo.ID;
         ground_Info.Info.Owner = player.PlayerInfo.ID;
         player.myGounds.Add(ground_Info);

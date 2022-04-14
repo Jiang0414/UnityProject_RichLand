@@ -89,14 +89,14 @@ public class RoundManager : MonoBehaviour
                 }
             case RoundCount.Player1:
                 {
-                    Debug.Log("Turn: player1");
+                    //Debug.Log("Turn: player1");
                     now_Player = player1;
                     other_Player = player2;
                     break;
                 }
             case RoundCount.Player2:
                 {
-                    Debug.Log("Turn: player2");
+                    //Debug.Log("Turn: player2");
                     now_Player = player2;
                     other_Player = player1;
                     break;
@@ -116,8 +116,8 @@ public class RoundManager : MonoBehaviour
                 }
             case RoundCount.Stay:
                 {
-                    Debug.Log("now_Player" + now_Player);
-                    Debug.Log("other_Player" + other_Player);
+                    //Debug.Log("now_Player" + now_Player);
+                    //Debug.Log("other_Player" + other_Player);
                     break;
                 }
         }

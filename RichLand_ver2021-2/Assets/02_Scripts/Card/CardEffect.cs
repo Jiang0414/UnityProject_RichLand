@@ -512,7 +512,6 @@ public class CardEffect : MonoBehaviour
             }
             else
             {
-                Debug.Log(roundManager.GetComponent<FloorManager>().CheckTerritory());
                 if (!roundManager.GetComponent<FloorManager>().CheckTerritory())
                 {
                     StartCoroutine(EndWithTip(true));

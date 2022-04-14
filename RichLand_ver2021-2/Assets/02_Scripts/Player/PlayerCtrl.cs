@@ -461,7 +461,7 @@ public class PlayerCtrl : MonoBehaviour
                     }
                     uiManager.ui_BuyGround.GetComponent<PageCtrl>().GetPage("Buy_Ground").GetComponent<BuyGround>().player = this;
                     OpenGroundUI("Buy_Ground");
-                    Debug.Log("道路" + groundInfo.Info.ID + "是空地");
+                    //Debug.Log("道路" + groundInfo.Info.ID + "是空地");
                     break;
                 }
             case (1):
@@ -508,7 +508,7 @@ public class PlayerCtrl : MonoBehaviour
                 playerState = PlayerState.ActEnd;
             }
         }
-        Debug.Log("道路" + groundInfo.Info.ID + "房屋等級" + groundInfo.Info.HouseLv + "屬於玩家" + groundInfo.Info.Owner);
+        //Debug.Log("道路" + groundInfo.Info.ID + "房屋等級" + groundInfo.Info.HouseLv + "屬於玩家" + groundInfo.Info.Owner);
     }
 
     IEnumerator PassDelay(PlayerCtrl player, string uiTip, float sec)
